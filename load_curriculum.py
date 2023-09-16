@@ -19,12 +19,16 @@ def get_courses(period):
         crs_tt_module = crs.select("td")[4].text.strip()
         crs_ecv = crs.select("td")[5].text.strip()
 
+        href = crs.select("a")[0].get("href")
+        crs_url = "https://studieinfo.liu.se/" + href
+
         course = {"code" : crs_code,
-                "name" : crs_name,
-                "credits" : crs_credits,
-                "level" : crs_level,
-                "tt_module" : crs_tt_module,
-                "ecv" : crs_ecv,}
+                  "name" : crs_name,
+                  "credits" : crs_credits,
+                  "level" : crs_level,
+                  "tt_module" : crs_tt_module,
+                  "ecv" : crs_ecv,
+                  "url" : crs_url}
         courses.append(course)
 
     return(courses)
