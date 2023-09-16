@@ -4,6 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 from datetime import date
 import json
+import jq
 
 
 # %% Define functions
@@ -35,6 +36,8 @@ def get_examinations(url):
                        "scale" : scale}
 
         data["examinations"].append(examination)
+
+    return data
 
 
 def get_courses(period):
@@ -152,4 +155,7 @@ def load_from_json(save_file):
 
 curriculum = get_curriculum("https://studieinfo.liu.se/en/program/6CDDD/4617#curriculum")
 save_to_json(curriculum, "curriculum.json")
+
 # %%
+examinations = get_examinations("https://studieinfo.liu.se//en/kurs/TATA65/ht-2020")
+print(examinations)
