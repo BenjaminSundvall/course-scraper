@@ -1,0 +1,5080 @@
+Course number 0:
+TATA65
+Diskret matematik
+6*
+G1X
+-
+O
+
+Course number 1:
+TDDE23
+Funktionell och imperativ programmering, del 1
+6*
+G1X
+-
+O
+
+Course number 2:
+TATA65
+Diskret matematik
+6*
+G1X
+2
+O
+
+Course number 3:
+TDDD70
+Ingenj√∂rsprofessionalism, del 1
+1*
+G1X
+-
+O
+
+Course number 4:
+TDDE23
+Funktionell och imperativ programmering, del 1
+6*
+G1X
+3
+O
+
+Course number 5:
+TDDE25
+Perspektiv p√• data- och mjukvaruteknik
+6*
+G1X
+4
+O
+
+Course number 6:
+TATB04
+Inledande matematisk analys
+6
+G1X
+2
+O
+
+Course number 7:
+TDDD70
+Ingenj√∂rsprofessionalism, del 1
+1*
+G1X
+-
+O
+
+Course number 8:
+TDDE24
+Funktionell och imperativ programmering, del 2
+5
+G1X
+3
+O
+
+Course number 9:
+TDDE25
+Perspektiv p√• data- och mjukvaruteknik
+6*
+G1X
+4
+O
+
+Course number 10:
+TATA41
+Envariabelanalys 1
+6
+G1X
+4
+O
+
+Course number 11:
+TDDD79
+Ingenj√∂rsprofessionalism, del 2
+1*
+G1X
+-
+O
+
+Course number 12:
+TDDD94
+Ingenj√∂rsprofessionalism, del 4
+1*
+G1X
+-
+O
+
+Course number 13:
+TDDD98
+Ingenj√∂rsprofessionalism, del 6
+1*
+G1X
+-
+O
+
+Course number 14:
+TDDE30
+Objektorienterad programmering och Java
+7*
+G1X
+1/3
+O
+
+Course number 15:
+TSEA22
+Digitalteknik
+6
+G1X
+2
+O
+
+Course number 16:
+TATA42
+Envariabelanalys 2
+6
+G1X
+2
+O
+
+Course number 17:
+TDDD79
+Ingenj√∂rsprofessionalism, del 2
+1*
+G1X
+-
+O
+
+Course number 18:
+TDDD94
+Ingenj√∂rsprofessionalism, del 4
+1*
+G1X
+-
+O
+
+Course number 19:
+TDDD98
+Ingenj√∂rsprofessionalism, del 6
+1*
+G1X
+-
+O
+
+Course number 20:
+TDDE30
+Objektorienterad programmering och Java
+7*
+G1X
+1
+O
+
+Course number 21:
+TSEA82
+Datorteknik
+4
+G1X
+4
+O
+
+Course number 22:
+TATA24
+Linj√§r algebra
+8*
+G1X
+4
+O
+
+Course number 23:
+TDDD84
+Ingenj√∂rsprofessionalism, del 3
+1*
+G1X
+-
+O
+
+Course number 24:
+TDDD86
+Datastrukturer, algoritmer och programmeringsparadigm
+11*
+G1X
+2
+O
+
+Course number 25:
+TSTE24
+Elektronik
+5
+G1X
+3
+O
+
+Course number 26:
+TATA40
+Matematiska utblickar
+1*
+G1X
+-
+F
+
+Course number 27:
+TATA24
+Linj√§r algebra
+8*
+G1X
+4
+O
+
+Course number 28:
+TDDD84
+Ingenj√∂rsprofessionalism, del 3
+1*
+G1X
+-
+O
+
+Course number 29:
+TDDD86
+Datastrukturer, algoritmer och programmeringsparadigm
+11*
+G1X
+3
+O
+
+Course number 30:
+TFYA93
+Mekanik
+5
+G2X
+1
+O
+
+Course number 31:
+TATA40
+Matematiska utblickar
+1*
+G1X
+-
+F
+
+Course number 32:
+TATA76
+Flervariabelanalys
+4
+G1X
+4
+O
+
+Course number 33:
+TDDB68
+Processprogrammering och operativsystem
+6
+G2X
+3
+O
+
+Course number 34:
+TDDD79
+Ingenj√∂rsprofessionalism, del 2
+1*
+G1X
+-
+O
+
+Course number 35:
+TDDD94
+Ingenj√∂rsprofessionalism, del 4
+1*
+G1X
+-
+O
+
+Course number 36:
+TDDD98
+Ingenj√∂rsprofessionalism, del 6
+1*
+G1X
+-
+O
+
+Course number 37:
+TSEA83
+Datorkonstruktion
+8*
+G1X
+2
+O
+
+Course number 38:
+TATA40
+Matematiska utblickar
+1*
+G1X
+-
+F
+
+Course number 39:
+TAMS42
+Sannolikhetsl√§ra och statistik, grundkurs
+6
+G2X
+2
+O
+
+Course number 40:
+TDDD79
+Ingenj√∂rsprofessionalism, del 2
+1*
+G1X
+-
+O
+
+Course number 41:
+TDDD94
+Ingenj√∂rsprofessionalism, del 4
+1*
+G1X
+-
+O
+
+Course number 42:
+TDDD98
+Ingenj√∂rsprofessionalism, del 6
+1*
+G1X
+-
+O
+
+Course number 43:
+TFYA86
+Fysik
+5
+G2X
+1
+O
+
+Course number 44:
+TSEA83
+Datorkonstruktion
+8*
+G1X
+4
+O
+
+Course number 45:
+TATA40
+Matematiska utblickar
+1*
+G1X
+-
+F
+
+Course number 46:
+TAOP33
+Kombinatorisk optimering gk
+4
+G2X
+2
+O
+
+Course number 47:
+TDDC93
+Programutvecklingsmetodik, teori
+4
+G2X
+1
+O
+
+Course number 48:
+TDDD91
+Ingenj√∂rsprofessionalism, del 5
+1*
+G1X
+-
+O
+
+Course number 49:
+TSDT84
+Signaler och system samt transformer
+8*
+G2X
+4
+O
+
+Course number 50:
+TSEA29
+Konstruktion med mikrodatorer, projektkurs
+8*
+G2X
+3
+O
+
+Course number 51:
+TSRT04
+Introduktionskurs i Matlab
+2
+G1X
+-
+V
+
+Course number 52:
+TDDD88
+Logik
+5
+G1X
+2
+O
+
+Course number 53:
+TDDD91
+Ingenj√∂rsprofessionalism, del 5
+1*
+G1X
+-
+O
+
+Course number 54:
+TSDT84
+Signaler och system samt transformer
+8*
+G2X
+3
+O
+
+Course number 55:
+TSEA29
+Konstruktion med mikrodatorer, projektkurs
+8*
+G2X
+-
+O
+
+Course number 56:
+TDDD60
+Interaktiva system
+4
+G1X
+4
+O
+
+Course number 57:
+TDDD79
+Ingenj√∂rsprofessionalism, del 2
+1*
+G1X
+-
+O
+
+Course number 58:
+TDDD94
+Ingenj√∂rsprofessionalism, del 4
+1*
+G1X
+-
+O
+
+Course number 59:
+TDDD96
+Kandidatprojekt i programvaruutveckling
+15*
+G2X
+2/3
+O
+
+Course number 60:
+TDDD98
+Ingenj√∂rsprofessionalism, del 6
+1*
+G1X
+-
+O
+
+Course number 61:
+TSRT12
+Reglerteknik
+6
+G2X
+1
+O
+
+Course number 62:
+TDDD79
+Ingenj√∂rsprofessionalism, del 2
+1*
+G1X
+-
+O
+
+Course number 63:
+TDDD94
+Ingenj√∂rsprofessionalism, del 4
+1*
+G1X
+-
+O
+
+Course number 64:
+TDDD96
+Kandidatprojekt i programvaruutveckling
+15*
+G2X
+2/4
+O
+
+Course number 65:
+TDDD98
+Ingenj√∂rsprofessionalism, del 6
+1*
+G1X
+-
+O
+
+Course number 66:
+TSKS10
+Signaler, information och kommunikation
+4
+G2X
+3
+O
+
+Course number 67:
+TPTE06
+Praktik
+6
+G1X
+-
+V
+
+Course number 68:
+TANA21
+Ber√§kningsmatematik
+6
+G1X
+3
+O/V
+
+Course number 69:
+TAMS32
+Stokastiska processer
+6
+A1X
+1
+V
+
+Course number 70:
+TAMS43
+Sannolikhetsteori och bayesianska n√§tverk
+6*
+A1X
+4
+V
+
+Course number 71:
+TATA55
+Abstrakt algebra
+6*
+G2X
+3
+V
+
+Course number 72:
+TBME04
+Anatomi och fysiologi
+6
+G2X
+3
+V
+
+Course number 73:
+TBMI19
+Medicinska informationssystem
+6*
+A1X
+2
+V
+
+Course number 74:
+TDDC17
+Artificiell intelligens
+6
+G2X
+3
+V
+
+Course number 75:
+TDDD04
+Programvarutestning
+6
+A1X
+2
+V
+
+Course number 76:
+TDDD08
+Logikprogrammering
+6
+A1X
+4
+V
+
+Course number 77:
+TDDD23
+Design och programmering av datorspel
+6
+A1X
+2
+V
+
+Course number 78:
+TDDD38
+Avancerad programmering i C++
+6*
+A1X
+2
+V
+
+Course number 79:
+TDDD53
+Avancerad interaktionsdesign
+6
+A1X
+1
+V
+
+Course number 80:
+TDDE45
+Avancerad programvarudesign
+6
+A1X
+4
+V
+
+Course number 81:
+TDP024
+Enterprise Systems
+6
+G2X
+1
+V
+
+Course number 82:
+TDTS06
+Datorn√§t
+6
+G2X
+1
+V
+
+Course number 83:
+TDTS08
+Datorarkitektur
+6
+A1X
+2
+V
+
+Course number 84:
+TEAE01
+Industriell ekonomi, grundkurs
+6
+G1X
+2
+V
+
+Course number 85:
+TEIO32
+Projektledning och organisation
+6*
+G2X
+3
+V
+
+Course number 86:
+TFEI71
+Elektriska m√§tsystem
+4
+G1X
+4
+V
+
+Course number 87:
+TGTU91
+Retorik i teori och praktik
+6
+G1X
+2
+V
+
+Course number 88:
+THEN18
+Engelska
+6*
+G1X
+4
+V
+
+Course number 89:
+THFR27
+Franska med teknisk inriktning
+6*
+G1X
+4
+V
+
+Course number 90:
+THSP27
+Spanska med teknisk inriktning
+6*
+G1X
+4
+V
+
+Course number 91:
+THTY27
+Tyska med teknisk inriktning
+6*
+G1X
+4
+V
+
+Course number 92:
+TSBB06
+Multidimensionell signalanalys
+6*
+A1X
+2
+V
+
+Course number 93:
+TSBB08
+Digital bildbehandling grundkurs
+6
+A1X
+4
+V
+
+Course number 94:
+TSDT14
+Signalteori
+6
+A1X
+1
+V
+
+Course number 95:
+TSFS09
+Modellering och reglering av motorer och drivlinor
+6*
+A1X
+4
+V
+
+Course number 96:
+TSFS12
+Autonoma farkoster - planering, reglering och l√§rande system
+6
+A1X
+1
+V
+
+Course number 97:
+TSKS01
+Digital kommunikation
+6*
+A1X
+4
+V
+
+Course number 98:
+TSKS15
+Detektion och estimering av signaler
+6
+A1X
+2
+V
+
+Course number 99:
+TSRT92
+Modellering och inl√§rning f√∂r dynamiska system
+6
+A1X
+3
+V
+
+Course number 100:
+TSTE12
+Konstruktion av digitala system
+6
+A1X
+3
+V
+
+Course number 101:
+TSTE86
+Digitala integrerade kretsar
+6
+A1X
+2
+V
+
+Course number 102:
+TANA09
+Datatekniska ber√§kningar
+4
+G2X
+1
+O/V
+
+Course number 103:
+TAMS43
+Sannolikhetsteori och bayesianska n√§tverk
+6*
+A1X
+4
+V
+
+Course number 104:
+TAOP61
+Optimering av realistiska, sammansatta system
+6
+A1X
+2
+V
+
+Course number 105:
+TATA55
+Abstrakt algebra
+6*
+G2X
+3
+V
+
+Course number 106:
+TBME03
+Biokemi och cellbiologi
+6
+G2X
+2
+V
+
+Course number 107:
+TBMI04
+E-h√§lsa: visioner och verktyg
+6
+G2X
+2/4
+V
+
+Course number 108:
+TBMI19
+Medicinska informationssystem
+6*
+A1X
+3
+V
+
+Course number 109:
+TDDC34
+Teknisk, ekonomisk och samh√§llelig utv√§rdering av IT-produkter
+6
+A1X
+4
+V
+
+Course number 110:
+TDDC73
+Interaktionsprogrammering
+6
+G2X
+1
+V
+
+Course number 111:
+TDDD07
+Realtidssystem
+6
+A1X
+4
+V
+
+Course number 112:
+TDDD37
+Databasteknik
+6
+G2X
+1
+V
+
+Course number 113:
+TDDD38
+Avancerad programmering i C++
+6*
+A1X
+1
+V
+
+Course number 114:
+TDDD49
+Programmering i C# och .NET Framework
+4
+G2X
+3
+V
+
+Course number 115:
+TDDD55
+Kompilatorer och interpretatorer
+4
+G2X
+1
+V
+
+Course number 116:
+TDDD56
+Multicore- och GPU-Programmering
+6
+A1X
+2
+V
+
+Course number 117:
+TDDE01
+Maskininl√§rning
+6
+A1X
+1
+V
+
+Course number 118:
+TDDE02
+Mjukvarutekniskt entrepren√∂rskap
+6
+A1X
+2
+V
+
+Course number 119:
+TDEI19
+Ekonomisk styrning
+6
+A1X
+2
+V
+
+Course number 120:
+TEAE01
+Industriell ekonomi, grundkurs
+6
+G1X
+2
+V
+
+Course number 121:
+TEIM13
+Interkulturell kommunikation
+6
+G1X
+4
+V
+
+Course number 122:
+TEIO32
+Projektledning och organisation
+6*
+G2X
+1
+V
+
+Course number 123:
+TGTU04
+Ledarskap
+6
+G2X
+2
+V
+
+Course number 124:
+TGTU49
+Teknikhistoria
+6
+G1X
+1
+V
+
+Course number 125:
+THEN18
+Engelska
+6*
+G1X
+4
+V
+
+Course number 126:
+THFR27
+Franska med teknisk inriktning
+6*
+G1X
+4
+V
+
+Course number 127:
+THSP27
+Spanska med teknisk inriktning
+6*
+G1X
+4
+V
+
+Course number 128:
+THTY27
+Tyska med teknisk inriktning
+6*
+G1X
+4
+V
+
+Course number 129:
+TKMJ24
+Milj√∂teknik
+6
+G1X
+1
+V
+
+Course number 130:
+TMKA11
+Modellbaserad utveckling av system-av-system
+6
+A1X
+3
+V
+
+Course number 131:
+TSBB06
+Multidimensionell signalanalys
+6*
+A1X
+3
+V
+
+Course number 132:
+TSBB21
+Ber√§kningsfotografi
+6
+A1X
+4
+V
+
+Course number 133:
+TSEK02
+Radioelektronik
+6
+A1X
+3
+V
+
+Course number 134:
+TSEK37
+Analoga CMOS integrerade kretsar
+6
+A1X
+1
+V
+
+Course number 135:
+TSFS02
+Fordonsdynamik med reglering
+6
+A1X
+1
+V
+
+Course number 136:
+TSFS09
+Modellering och reglering av motorer och drivlinor
+6*
+A1X
+3
+V
+
+Course number 137:
+TSIN02
+Internetteknik
+6
+A1X
+1
+V
+
+Course number 138:
+TSIT02
+Datas√§kerhet
+6
+G2X
+2
+V
+
+Course number 139:
+TSKS01
+Digital kommunikation
+6*
+A1X
+4
+V
+
+Course number 140:
+TSKS33
+Komplexa n√§tverk och stora datam√§ngder
+6
+A1X
+3
+V
+
+Course number 141:
+TSRT08
+Optimal styrning
+6
+A1X
+3
+V
+
+Course number 142:
+TDDC17
+Artificiell intelligens
+6
+G2X
+3
+O
+
+Course number 143:
+TBMI19
+Medicinska informationssystem
+6*
+A1X
+2
+V
+
+Course number 144:
+TDDD08
+Logikprogrammering
+6
+A1X
+4
+V
+
+Course number 145:
+TSBB06
+Multidimensionell signalanalys
+6*
+A1X
+2
+V
+
+Course number 146:
+TSBB08
+Digital bildbehandling grundkurs
+6
+A1X
+4
+V
+
+Course number 147:
+TDDE01
+Maskininl√§rning
+6
+A1X
+1
+O
+
+Course number 148:
+TBMI19
+Medicinska informationssystem
+6*
+A1X
+3
+V
+
+Course number 149:
+TSBB06
+Multidimensionell signalanalys
+6*
+A1X
+3
+V
+
+Course number 150:
+TSKS33
+Komplexa n√§tverk och stora datam√§ngder
+6
+A1X
+3
+V
+
+Course number 151:
+TDDC17
+Artificiell intelligens
+6
+G2X
+3
+O
+
+Course number 152:
+TSBB08
+Digital bildbehandling grundkurs
+6
+A1X
+4
+O
+
+Course number 153:
+TSFS12
+Autonoma farkoster - planering, reglering och l√§rande system
+6
+A1X
+1
+O
+
+Course number 154:
+TSIT02
+Datas√§kerhet
+6
+G2X
+2
+V
+
+Course number 155:
+TSRT08
+Optimal styrning
+6
+A1X
+3
+V
+
+Course number 156:
+TDDD04
+Programvarutestning
+6
+A1X
+2
+V
+
+Course number 157:
+TDTS06
+Datorn√§t
+6
+G2X
+1
+V
+
+Course number 158:
+TDTS08
+Datorarkitektur
+6
+A1X
+2
+V
+
+Course number 159:
+TSTE86
+Digitala integrerade kretsar
+6
+A1X
+2
+V
+
+Course number 160:
+TDDD07
+Realtidssystem
+6
+A1X
+4
+V
+
+Course number 161:
+TSEA26
+Konstruktion av inbyggda DSP-processorer
+6
+A1X
+2
+V
+
+Course number 162:
+TSIT02
+Datas√§kerhet
+6
+G2X
+2
+V
+
+Course number 163:
+TSKS33
+Komplexa n√§tverk och stora datam√§ngder
+6
+A1X
+3
+V
+
+Course number 164:
+TSKS01
+Digital kommunikation
+6*
+A1X
+4
+O
+
+Course number 165:
+TSTE86
+Digitala integrerade kretsar
+6
+A1X
+2
+O
+
+Course number 166:
+TSTE12
+Konstruktion av digitala system
+6
+A1X
+3
+V
+
+Course number 167:
+TSEK37
+Analoga CMOS integrerade kretsar
+6
+A1X
+1
+O
+
+Course number 168:
+TSKS01
+Digital kommunikation
+6*
+A1X
+4
+O
+
+Course number 169:
+TSEA26
+Konstruktion av inbyggda DSP-processorer
+6
+A1X
+2
+V
+
+Course number 170:
+TSEK02
+Radioelektronik
+6
+A1X
+3
+V
+
+Course number 171:
+TEAE01
+Industriell ekonomi, grundkurs
+6
+G1X
+2
+O
+
+Course number 172:
+TEIO32
+Projektledning och organisation
+6*
+G2X
+3
+O
+
+Course number 173:
+TDDC34
+Teknisk, ekonomisk och samh√§llelig utv√§rdering av IT-produkter
+6
+A1X
+4
+O
+
+Course number 174:
+TDDE02
+Mjukvarutekniskt entrepren√∂rskap
+6
+A1X
+2
+O
+
+Course number 175:
+TEIO32
+Projektledning och organisation
+6*
+G2X
+1
+O
+
+Course number 176:
+TDDD04
+Programvarutestning
+6
+A1X
+2
+V
+
+Course number 177:
+TDDD38
+Avancerad programmering i C++
+6*
+A1X
+2
+V
+
+Course number 178:
+TDDE45
+Avancerad programvarudesign
+6
+A1X
+4
+V
+
+Course number 179:
+TEAE01
+Industriell ekonomi, grundkurs
+6
+G1X
+2
+O
+
+Course number 180:
+TDDD38
+Avancerad programmering i C++
+6*
+A1X
+1
+V
+
+Course number 181:
+TDDE02
+Mjukvarutekniskt entrepren√∂rskap
+6
+A1X
+2
+V
+
+Course number 182:
+TDEI19
+Ekonomisk styrning
+6
+A1X
+2
+V
+
+Course number 183:
+TEIM13
+Interkulturell kommunikation
+6
+G1X
+4
+V
+
+Course number 184:
+TSIT02
+Datas√§kerhet
+6
+G2X
+2
+V
+
+Course number 185:
+TSDT14
+Signalteori
+6
+A1X
+1
+O
+
+Course number 186:
+TSKS01
+Digital kommunikation
+6*
+A1X
+4
+O
+
+Course number 187:
+TSKS15
+Detektion och estimering av signaler
+6
+A1X
+2
+O
+
+Course number 188:
+TDTS06
+Datorn√§t
+6
+G2X
+1
+V
+
+Course number 189:
+TSKS01
+Digital kommunikation
+6*
+A1X
+4
+O
+
+Course number 190:
+TDDE01
+Maskininl√§rning
+6
+A1X
+1
+V
+
+Course number 191:
+TSIN02
+Internetteknik
+6
+A1X
+1
+V
+
+Course number 192:
+TSKS33
+Komplexa n√§tverk och stora datam√§ngder
+6
+A1X
+3
+V
+
+Course number 193:
+TSRT78
+Digital signalbehandling
+6
+A1X
+2
+V
+
+Course number 194:
+TBME04
+Anatomi och fysiologi
+6
+G2X
+3
+O
+
+Course number 195:
+TBMI19
+Medicinska informationssystem
+6*
+A1X
+2
+O
+
+Course number 196:
+TDDC17
+Artificiell intelligens
+6
+G2X
+3
+V
+
+Course number 197:
+TDDD53
+Avancerad interaktionsdesign
+6
+A1X
+1
+V
+
+Course number 198:
+TBMI19
+Medicinska informationssystem
+6*
+A1X
+3
+O
+
+Course number 199:
+TBME03
+Biokemi och cellbiologi
+6
+G2X
+2
+V
+
+Course number 200:
+TBMI04
+E-h√§lsa: visioner och verktyg
+6
+G2X
+2/4
+V
+
+Course number 201:
+TDDD37
+Databasteknik
+6
+G2X
+1
+V
+
+Course number 202:
+TSIT02
+Datas√§kerhet
+6
+G2X
+2
+V
+
+Course number 203:
+TDDD08
+Logikprogrammering
+6
+A1X
+4
+O/V
+
+Course number 204:
+TDDC17
+Artificiell intelligens
+6
+G2X
+3
+V
+
+Course number 205:
+TDTS06
+Datorn√§t
+6
+G2X
+1
+V
+
+Course number 206:
+TSIT03
+Kryptoteknik
+6
+A1X
+2
+V
+
+Course number 207:
+TDDD37
+Databasteknik
+6
+G2X
+1
+O
+
+Course number 208:
+TSIT02
+Datas√§kerhet
+6
+G2X
+2
+O
+
+Course number 209:
+TSKS33
+Komplexa n√§tverk och stora datam√§ngder
+6
+A1X
+3
+V
+
+Course number 210:
+TSBB06
+Multidimensionell signalanalys
+6*
+A1X
+2
+O
+
+Course number 211:
+TSBB08
+Digital bildbehandling grundkurs
+6
+A1X
+4
+O
+
+Course number 212:
+TSDT14
+Signalteori
+6
+A1X
+1
+V
+
+Course number 213:
+TSBB06
+Multidimensionell signalanalys
+6*
+A1X
+3
+O
+
+Course number 214:
+TSBB21
+Ber√§kningsfotografi
+6
+A1X
+4
+O
+
+Course number 215:
+TSRT78
+Digital signalbehandling
+6
+A1X
+2
+O
+
+Course number 216:
+TDDD23
+Design och programmering av datorspel
+6
+A1X
+2
+O
+
+Course number 217:
+TDDC17
+Artificiell intelligens
+6
+G2X
+3
+V
+
+Course number 218:
+TDDD53
+Avancerad interaktionsdesign
+6
+A1X
+1
+V
+
+Course number 219:
+TDDC73
+Interaktionsprogrammering
+6
+G2X
+1
+O
+
+Course number 220:
+TDDE02
+Mjukvarutekniskt entrepren√∂rskap
+6
+A1X
+2
+V
+
+Course number 221:
+TDDD04
+Programvarutestning
+6
+A1X
+2
+V
+
+Course number 222:
+TDDE45
+Avancerad programvarudesign
+6
+A1X
+4
+V
+
+Course number 223:
+TDDC34
+Teknisk, ekonomisk och samh√§llelig utv√§rdering av IT-produkter
+6
+A1X
+4
+V
+
+Course number 224:
+TDDD37
+Databasteknik
+6
+G2X
+1
+V
+
+Course number 225:
+TDDE02
+Mjukvarutekniskt entrepren√∂rskap
+6
+A1X
+2
+V
+
+Course number 226:
+TSTE12
+Konstruktion av digitala system
+6
+A1X
+3
+O
+
+Course number 227:
+TSTE86
+Digitala integrerade kretsar
+6
+A1X
+2
+O
+
+Course number 228:
+TDTS06
+Datorn√§t
+6
+G2X
+1
+V
+
+Course number 229:
+TSKS01
+Digital kommunikation
+6*
+A1X
+4
+V
+
+Course number 230:
+TSEA26
+Konstruktion av inbyggda DSP-processorer
+6
+A1X
+2
+O
+
+Course number 231:
+TDDD07
+Realtidssystem
+6
+A1X
+4
+V
+
+Course number 232:
+TDDD55
+Kompilatorer och interpretatorer
+4
+G2X
+1
+V
+
+Course number 233:
+TSEK37
+Analoga CMOS integrerade kretsar
+6
+A1X
+1
+V
+
+Course number 234:
+TSKS01
+Digital kommunikation
+6*
+A1X
+4
+V
+
+Course number 235:
+TDDE45
+Avancerad programvarudesign
+6
+A1X
+4
+O
+
+Course number 236:
+TDDD38
+Avancerad programmering i C++
+6*
+A1X
+2
+V
+
+Course number 237:
+TDTS06
+Datorn√§t
+6
+G2X
+1
+V
+
+Course number 238:
+TSIT03
+Kryptoteknik
+6
+A1X
+2
+V
+
+Course number 239:
+TSIT02
+Datas√§kerhet
+6
+G2X
+2
+O
+
+Course number 240:
+TDDB44
+Kompilatorkonstruktion
+6
+A1X
+1
+V
+
+Course number 241:
+TDDD38
+Avancerad programmering i C++
+6*
+A1X
+1
+V
+
+Course number 242:
+TANA15
+Numerisk linj√§r algebra
+6
+A1X
+1
+V
+
+Course number 243:
+TATA53
+Linj√§r algebra, √∂verkurs
+6*
+G2X
+2
+V
+
+Course number 244:
+TATA54
+Talteori
+6*
+G2X
+3
+V
+
+Course number 245:
+TATA64
+Grafteori
+6*
+A1X
+2
+V
+
+Course number 246:
+TBMI26
+Neuronn√§t och l√§rande system
+6
+A1X
+2
+V
+
+Course number 247:
+TBMI31
+Medicinsk information och kunskap
+6
+A1X
+4
+V
+
+Course number 248:
+TBMT02
+Bildgenererande teknik inom medicinen
+6
+A1X
+3
+V
+
+Course number 249:
+TBMT09
+Fysiologiska tryck och fl√∂den
+6
+A1X
+1
+V
+
+Course number 250:
+TBMT32
+Medicintekniska utblickar
+2*
+G1X
+3
+V
+
+Course number 251:
+TDDD20
+Konstruktion och analys av algoritmer
+6
+A1X
+3
+V
+
+Course number 252:
+TDDD25
+Distribuerade system
+6
+A1X
+2
+V
+
+Course number 253:
+TDDD38
+Avancerad programmering i C++
+6*
+A1X
+2
+V
+
+Course number 254:
+TDDD41
+Data Mining - Clustering and Association Analysis
+6
+A1X
+3
+V
+
+Course number 255:
+TDDD50
+Gr√∂n IT
+4
+G2X
+4
+V
+
+Course number 256:
+TDDD57
+Fysisk interaktion och spelprogrammering
+6
+A1X
+1
+V
+
+Course number 257:
+TDDD95
+Algoritmisk probleml√∂sning
+6*
+A1X
+1
+V
+
+Course number 258:
+TDDD97
+Webbprogrammering
+6
+G2X
+3
+V
+
+Course number 259:
+TDDE05
+AI-robotik
+6*
+A1X
+4
+V
+
+Course number 260:
+TDDE09
+Spr√•kteknologi
+6
+A1X
+2
+V
+
+Course number 261:
+TDDE46
+Programvarukvalitet
+6*
+A1X
+2
+V
+
+Course number 262:
+TDDE50
+Megagame - design f√∂r h√•llbar utveckling i ett f√∂r√§ndrat klimat
+6*
+G2X
+-
+V
+
+Course number 263:
+TDDE51
+Metoder och verktyg f√∂r stora distribuerade projekt
+6*
+A1X
+4
+V
+
+Course number 264:
+TDDE55
+Data- och programstrukturer
+6*
+G2X
+3
+V
+
+Course number 265:
+TDDE61
+Etisk hackning
+6*
+A1X
+1
+V
+
+Course number 266:
+TDDE62
+Informationss√§kerhet: privacy, system- och n√§tverkss√§kerhet
+6
+A1X
+4
+V
+
+Course number 267:
+TDTS07
+Systemkonstruktion och metodik
+6
+A1X
+1
+V
+
+Course number 268:
+TDTS21
+Avancerade n√§tverk
+6*
+A1X
+1
+V
+
+Course number 269:
+TEAE21
+Cybers√§kerhetsr√§tt
+6
+G1X
+3
+V
+
+Course number 270:
+TEIE88
+Datajuridisk √∂versiktskurs
+4
+G1X
+1
+V
+
+Course number 271:
+TEIO13
+Ledarskap och industriellt f√∂r√§ndringsarbete
+6
+A1X
+4
+V
+
+Course number 272:
+TEIO94
+Entrepren√∂rskap och id√©utveckling
+6*
+G2X
+4
+V
+
+Course number 273:
+TEIO95
+E-h√§lsa: innovation och entrepren√∂rskap
+6*
+G2X
+4
+V
+
+Course number 274:
+TGTU94
+Teknik och etik
+6
+G1X
+1
+V
+
+Course number 275:
+THEN18
+Engelska
+6*
+G1X
+4
+V
+
+Course number 276:
+THFR27
+Franska med teknisk inriktning
+6*
+G1X
+4
+V
+
+Course number 277:
+THSP27
+Spanska med teknisk inriktning
+6*
+G1X
+4
+V
+
+Course number 278:
+THTY27
+Tyska med teknisk inriktning
+6*
+G1X
+4
+V
+
+Course number 279:
+TINT02
+Interkulturell kompetens och interkulturell kommunikation, forts√§ttningskurs
+6*
+G2X
+-
+V
+
+Course number 280:
+TKMJ15
+Milj√∂management
+6
+G1X
+3
+V
+
+Course number 281:
+TNM111
+Informationsvisualisering
+6
+A1X
+3
+V
+
+Course number 282:
+TSBB34
+Datorseende f√∂r videoanalys
+6
+A1X
+1
+V
+
+Course number 283:
+TSBK07
+Datorgrafik
+6*
+A1X
+4
+V
+
+Course number 284:
+TSBK08
+Datakompression
+6
+A1X
+2
+V
+
+Course number 285:
+TSEK06
+VLSI-konstruktion, CDIO
+12*
+A1X
+4
+V
+
+Course number 286:
+TSEK38
+Konstruktion av radiotransceivers
+6
+A1X
+2
+V
+
+Course number 287:
+TSKS13
+Tr√•dl√∂s kommunikation
+6
+A1X
+4
+V
+
+Course number 288:
+TSRT07
+Industriell reglerteknik
+6
+A1X
+2
+V
+
+Course number 289:
+TSRT09
+Reglerteori
+6
+A1X
+3
+V
+
+Course number 290:
+TSTE14
+Analoga filter
+6
+A1X
+2
+V
+
+Course number 291:
+TSTE27
+Analoga och tidsdiskreta integrerade kretsar
+6
+A1X
+3
+V
+
+Course number 292:
+TAOP87
+Projekt i till√§mpad optimering
+6
+A1X
+3
+V
+
+Course number 293:
+TATA53
+Linj√§r algebra, √∂verkurs
+6*
+G2X
+3
+V
+
+Course number 294:
+TATA54
+Talteori
+6*
+G2X
+1
+V
+
+Course number 295:
+TATA64
+Grafteori
+6*
+A1X
+2
+V
+
+Course number 296:
+TBMT26
+Teknik f√∂r intensivv√•rd och kirurgi
+6
+A1X
+1
+V
+
+Course number 297:
+TBMT32
+Medicintekniska utblickar
+2*
+G1X
+3
+V
+
+Course number 298:
+TDDD14
+Formella spr√•k och automatateori
+6
+G2X
+2
+V
+
+Course number 299:
+TDDD27
+Avancerad webbprogrammering
+6
+A1X
+3
+V
+
+Course number 300:
+TDDD38
+Avancerad programmering i C++
+6*
+A1X
+1
+V
+
+Course number 301:
+TDDD48
+Automatisk planering
+6
+A1X
+1
+V
+
+Course number 302:
+TDDD95
+Algoritmisk probleml√∂sning
+6*
+A1X
+4
+V
+
+Course number 303:
+TDDE05
+AI-robotik
+6*
+A1X
+4
+V
+
+Course number 304:
+TDDE07
+Bayesianska metoder
+6
+A1X
+2
+V
+
+Course number 305:
+TDDE31
+Big Data Analytics
+6
+A1X
+3
+V
+
+Course number 306:
+TDDE34
+Mjukvaruverifiering
+6
+A1X
+1
+V
+
+Course number 307:
+TDDE41
+Programvaruarkitekturer
+6
+A1X
+1
+V
+
+Course number 308:
+TDDE46
+Programvarukvalitet
+6*
+A1X
+2
+V
+
+Course number 309:
+TDDE50
+Megagame - design f√∂r h√•llbar utveckling i ett f√∂r√§ndrat klimat
+6*
+G2X
+-
+V
+
+Course number 310:
+TDDE51
+Metoder och verktyg f√∂r stora distribuerade projekt
+6*
+A1X
+4
+V
+
+Course number 311:
+TDDE55
+Data- och programstrukturer
+6*
+G2X
+1
+V
+
+Course number 312:
+TDDE61
+Etisk hackning
+6*
+A1X
+2
+V
+
+Course number 313:
+TDDE64
+Sports Analytics
+6
+A1X
+3
+V
+
+Course number 314:
+TDDE65
+Programmering av parallelldatorer - metoder och verktyg
+6
+A1X
+2
+V
+
+Course number 315:
+TDDE70
+Djup maskininl√§rning
+6
+A1X
+1
+V
+
+Course number 316:
+TDTS21
+Avancerade n√§tverk
+6*
+A1X
+1
+V
+
+Course number 317:
+TEAE13
+Aff√§rsr√§tt
+6
+G1X
+2
+V
+
+Course number 318:
+TEAE20
+Immaterialr√§tt
+6
+G1X
+1
+V
+
+Course number 319:
+TEIG01
+Organisation f√∂r cybers√§kerhet
+6
+A1X
+4
+V
+
+Course number 320:
+TEIO06
+Innovativt entrepren√∂rskap
+6
+A1X
+2
+V
+
+Course number 321:
+TEIO94
+Entrepren√∂rskap och id√©utveckling
+6*
+G2X
+4
+V
+
+Course number 322:
+TEIO95
+E-h√§lsa: innovation och entrepren√∂rskap
+6*
+G2X
+2/4
+V
+
+Course number 323:
+TGTU84
+M√•ngfald och genus inom teknikutveckling
+6
+G1X
+4
+V
+
+Course number 324:
+TGTU95
+Vetenskapens och teknologins filosofi
+6
+G1X
+4
+V
+
+Course number 325:
+THEN18
+Engelska
+6*
+G1X
+4
+V
+
+Course number 326:
+THFR27
+Franska med teknisk inriktning
+6*
+G1X
+4
+V
+
+Course number 327:
+THSP27
+Spanska med teknisk inriktning
+6*
+G1X
+4
+V
+
+Course number 328:
+THTY27
+Tyska med teknisk inriktning
+6*
+G1X
+4
+V
+
+Course number 329:
+TINT02
+Interkulturell kompetens och interkulturell kommunikation, forts√§ttningskurs
+6*
+G2X
+-
+V
+
+Course number 330:
+TNM079
+Modellering och animering
+6
+A1X
+2
+V
+
+Course number 331:
+TSBB33
+3D-datorseende
+6
+A1X
+3
+V
+
+Course number 332:
+TSBK07
+Datorgrafik
+6*
+A1X
+1
+V
+
+Course number 333:
+TSBK38
+Bild- och ljudkompression
+6
+A1X
+4
+V
+
+Course number 334:
+TSEK06
+VLSI-konstruktion, CDIO
+12*
+A1X
+4
+V
+
+Course number 335:
+TSFS06
+Diagnos och √∂vervakning
+6
+A1X
+1
+V
+
+Course number 336:
+TSIT11
+Kvantalgoritmer och kvantinformation
+6
+A1X
+3
+V
+
+Course number 337:
+TSKS14
+Flerantennkommunikation
+6
+A1X
+3
+V
+
+Course number 338:
+TSKS16
+Signalbehandling f√∂r kommunikation
+6
+A1X
+1
+V
+
+Course number 339:
+TSRT14
+Sensorfusion
+6
+A1X
+3
+V
+
+Course number 340:
+TSTE06
+Digitala filter
+6
+A1X
+3
+V
+
+Course number 341:
+TSTE87
+Applikationsspecifika integrerade kretsar
+6
+A1X
+2
+V
+
+Course number 342:
+TBMI26
+Neuronn√§t och l√§rande system
+6
+A1X
+2
+V
+
+Course number 343:
+TDDD20
+Konstruktion och analys av algoritmer
+6
+A1X
+3
+V
+
+Course number 344:
+TDDD41
+Data Mining - Clustering and Association Analysis
+6
+A1X
+3
+V
+
+Course number 345:
+TDDD95
+Algoritmisk probleml√∂sning
+6*
+A1X
+1
+V
+
+Course number 346:
+TDDE05
+AI-robotik
+6*
+A1X
+4
+V
+
+Course number 347:
+TDDE09
+Spr√•kteknologi
+6
+A1X
+2
+V
+
+Course number 348:
+TSRT07
+Industriell reglerteknik
+6
+A1X
+2
+V
+
+Course number 349:
+TDDD48
+Automatisk planering
+6
+A1X
+1
+V
+
+Course number 350:
+TDDD95
+Algoritmisk probleml√∂sning
+6*
+A1X
+4
+V
+
+Course number 351:
+TDDE05
+AI-robotik
+6*
+A1X
+4
+V
+
+Course number 352:
+TDDE07
+Bayesianska metoder
+6
+A1X
+2
+V
+
+Course number 353:
+TDDE31
+Big Data Analytics
+6
+A1X
+3
+V
+
+Course number 354:
+TDDE64
+Sports Analytics
+6
+A1X
+3
+V
+
+Course number 355:
+TDDE70
+Djup maskininl√§rning
+6
+A1X
+1
+V
+
+Course number 356:
+TSFS06
+Diagnos och √∂vervakning
+6
+A1X
+1
+V
+
+Course number 357:
+TSRT14
+Sensorfusion
+6
+A1X
+3
+V
+
+Course number 358:
+TSRT07
+Industriell reglerteknik
+6
+A1X
+2
+O
+
+Course number 359:
+TDDE05
+AI-robotik
+6*
+A1X
+4
+V
+
+Course number 360:
+TSBB34
+Datorseende f√∂r videoanalys
+6
+A1X
+1
+V
+
+Course number 361:
+TSRT09
+Reglerteori
+6
+A1X
+3
+V
+
+Course number 362:
+TDDE05
+AI-robotik
+6*
+A1X
+4
+V
+
+Course number 363:
+TSBB33
+3D-datorseende
+6
+A1X
+3
+V
+
+Course number 364:
+TSFS06
+Diagnos och √∂vervakning
+6
+A1X
+1
+V
+
+Course number 365:
+TSRT14
+Sensorfusion
+6
+A1X
+3
+V
+
+Course number 366:
+TDDD25
+Distribuerade system
+6
+A1X
+2
+V
+
+Course number 367:
+TDDD38
+Avancerad programmering i C++
+6*
+A1X
+2
+V
+
+Course number 368:
+TDDD97
+Webbprogrammering
+6
+G2X
+3
+V
+
+Course number 369:
+TDDE55
+Data- och programstrukturer
+6*
+G2X
+3
+V
+
+Course number 370:
+TDTS07
+Systemkonstruktion och metodik
+6
+A1X
+1
+V
+
+Course number 371:
+TDTS21
+Avancerade n√§tverk
+6*
+A1X
+1
+V
+
+Course number 372:
+TDDD14
+Formella spr√•k och automatateori
+6
+G2X
+2
+V
+
+Course number 373:
+TDDD27
+Avancerad webbprogrammering
+6
+A1X
+3
+V
+
+Course number 374:
+TDDD38
+Avancerad programmering i C++
+6*
+A1X
+1
+V
+
+Course number 375:
+TDDE34
+Mjukvaruverifiering
+6
+A1X
+1
+V
+
+Course number 376:
+TDDE41
+Programvaruarkitekturer
+6
+A1X
+1
+V
+
+Course number 377:
+TDDE55
+Data- och programstrukturer
+6*
+G2X
+1
+V
+
+Course number 378:
+TDDE65
+Programmering av parallelldatorer - metoder och verktyg
+6
+A1X
+2
+V
+
+Course number 379:
+TDTS21
+Avancerade n√§tverk
+6*
+A1X
+1
+V
+
+Course number 380:
+TSTE27
+Analoga och tidsdiskreta integrerade kretsar
+6
+A1X
+3
+O
+
+Course number 381:
+TSEK06
+VLSI-konstruktion, CDIO
+12*
+A1X
+4
+V
+
+Course number 382:
+TSEK38
+Konstruktion av radiotransceivers
+6
+A1X
+2
+V
+
+Course number 383:
+TSTE14
+Analoga filter
+6
+A1X
+2
+V
+
+Course number 384:
+TSTE93
+Analog konstruktion
+6*
+G2X
+1
+V
+
+Course number 385:
+TSTE87
+Applikationsspecifika integrerade kretsar
+6
+A1X
+2
+O
+
+Course number 386:
+TSEK06
+VLSI-konstruktion, CDIO
+12*
+A1X
+4
+V
+
+Course number 387:
+TSKS16
+Signalbehandling f√∂r kommunikation
+6
+A1X
+1
+V
+
+Course number 388:
+TSTE06
+Digitala filter
+6
+A1X
+3
+V
+
+Course number 389:
+TSTE93
+Analog konstruktion
+6*
+G2X
+1
+V
+
+Course number 390:
+TEIO13
+Ledarskap och industriellt f√∂r√§ndringsarbete
+6
+A1X
+4
+O
+
+Course number 391:
+TEIO06
+Innovativt entrepren√∂rskap
+6
+A1X
+2
+O
+
+Course number 392:
+TBMI26
+Neuronn√§t och l√§rande system
+6
+A1X
+2
+V
+
+Course number 393:
+TDTS21
+Avancerade n√§tverk
+6*
+A1X
+1
+V
+
+Course number 394:
+TSBK08
+Datakompression
+6
+A1X
+2
+V
+
+Course number 395:
+TSKS13
+Tr√•dl√∂s kommunikation
+6
+A1X
+4
+V
+
+Course number 396:
+TDTS21
+Avancerade n√§tverk
+6*
+A1X
+1
+V
+
+Course number 397:
+TSBK38
+Bild- och ljudkompression
+6
+A1X
+4
+V
+
+Course number 398:
+TSKS14
+Flerantennkommunikation
+6
+A1X
+3
+V
+
+Course number 399:
+TSKS16
+Signalbehandling f√∂r kommunikation
+6
+A1X
+1
+V
+
+Course number 400:
+TBMI26
+Neuronn√§t och l√§rande system
+6
+A1X
+2
+V
+
+Course number 401:
+TBMI31
+Medicinsk information och kunskap
+6
+A1X
+4
+V
+
+Course number 402:
+TDDE62
+Informationss√§kerhet: privacy, system- och n√§tverkss√§kerhet
+6
+A1X
+4
+V
+
+Course number 403:
+TEIO95
+E-h√§lsa: innovation och entrepren√∂rskap
+6*
+G2X
+4
+V
+
+Course number 404:
+TBMT26
+Teknik f√∂r intensivv√•rd och kirurgi
+6
+A1X
+1
+V
+
+Course number 405:
+TDDE31
+Big Data Analytics
+6
+A1X
+3
+V
+
+Course number 406:
+TEIO95
+E-h√§lsa: innovation och entrepren√∂rskap
+6*
+G2X
+2/4
+V
+
+Course number 407:
+TATA64
+Grafteori
+6*
+A1X
+2
+O/V
+
+Course number 408:
+TDDD20
+Konstruktion och analys av algoritmer
+6
+A1X
+3
+O/V
+
+Course number 409:
+TDDD41
+Data Mining - Clustering and Association Analysis
+6
+A1X
+3
+V
+
+Course number 410:
+TDDD95
+Algoritmisk probleml√∂sning
+6*
+A1X
+1
+V
+
+Course number 411:
+TDDE09
+Spr√•kteknologi
+6
+A1X
+2
+V
+
+Course number 412:
+TDDE55
+Data- och programstrukturer
+6*
+G2X
+3
+V
+
+Course number 413:
+TATA64
+Grafteori
+6*
+A1X
+2
+O/V
+
+Course number 414:
+TDDD14
+Formella spr√•k och automatateori
+6
+G2X
+2
+O/V
+
+Course number 415:
+TDDE34
+Mjukvaruverifiering
+6
+A1X
+1
+O/V
+
+Course number 416:
+TDDD95
+Algoritmisk probleml√∂sning
+6*
+A1X
+4
+V
+
+Course number 417:
+TDDE55
+Data- och programstrukturer
+6*
+G2X
+1
+V
+
+Course number 418:
+TDDE65
+Programmering av parallelldatorer - metoder och verktyg
+6
+A1X
+2
+V
+
+Course number 419:
+TBMI26
+Neuronn√§t och l√§rande system
+6
+A1X
+2
+V
+
+Course number 420:
+TBMT02
+Bildgenererande teknik inom medicinen
+6
+A1X
+3
+V
+
+Course number 421:
+TDDE09
+Spr√•kteknologi
+6
+A1X
+2
+V
+
+Course number 422:
+TNM111
+Informationsvisualisering
+6
+A1X
+3
+V
+
+Course number 423:
+TSBB34
+Datorseende f√∂r videoanalys
+6
+A1X
+1
+V
+
+Course number 424:
+TSBK07
+Datorgrafik
+6*
+A1X
+4
+V
+
+Course number 425:
+TSBK08
+Datakompression
+6
+A1X
+2
+V
+
+Course number 426:
+TSBB33
+3D-datorseende
+6
+A1X
+3
+V
+
+Course number 427:
+TSBK07
+Datorgrafik
+6*
+A1X
+1
+V
+
+Course number 428:
+TSBK38
+Bild- och ljudkompression
+6
+A1X
+4
+V
+
+Course number 429:
+TSRT14
+Sensorfusion
+6
+A1X
+3
+V
+
+Course number 430:
+TDDD57
+Fysisk interaktion och spelprogrammering
+6
+A1X
+1
+O
+
+Course number 431:
+TSBK07
+Datorgrafik
+6*
+A1X
+4
+O
+
+Course number 432:
+TBMI26
+Neuronn√§t och l√§rande system
+6
+A1X
+2
+V
+
+Course number 433:
+TSBK07
+Datorgrafik
+6*
+A1X
+1
+O
+
+Course number 434:
+TNM079
+Modellering och animering
+6
+A1X
+2
+V
+
+Course number 435:
+TDDE46
+Programvarukvalitet
+6*
+A1X
+2
+V
+
+Course number 436:
+TDDE51
+Metoder och verktyg f√∂r stora distribuerade projekt
+6*
+A1X
+4
+V
+
+Course number 437:
+TDDE34
+Mjukvaruverifiering
+6
+A1X
+1
+V
+
+Course number 438:
+TDDE41
+Programvaruarkitekturer
+6
+A1X
+1
+V
+
+Course number 439:
+TDDE46
+Programvarukvalitet
+6*
+A1X
+2
+V
+
+Course number 440:
+TDDE51
+Metoder och verktyg f√∂r stora distribuerade projekt
+6*
+A1X
+4
+V
+
+Course number 441:
+TDTS07
+Systemkonstruktion och metodik
+6
+A1X
+1
+O
+
+Course number 442:
+TSBK07
+Datorgrafik
+6*
+A1X
+4
+V
+
+Course number 443:
+TSEK06
+VLSI-konstruktion, CDIO
+12*
+A1X
+4
+V
+
+Course number 444:
+TSTE27
+Analoga och tidsdiskreta integrerade kretsar
+6
+A1X
+3
+V
+
+Course number 445:
+TEAE20
+Immaterialr√§tt
+6
+G1X
+1
+V
+
+Course number 446:
+TSBK07
+Datorgrafik
+6*
+A1X
+1
+V
+
+Course number 447:
+TSEK06
+VLSI-konstruktion, CDIO
+12*
+A1X
+4
+V
+
+Course number 448:
+TSKS16
+Signalbehandling f√∂r kommunikation
+6
+A1X
+1
+V
+
+Course number 449:
+TSTE06
+Digitala filter
+6
+A1X
+3
+V
+
+    Course number 452:
+TDDD38
+Avancerad programmering i C++
+6*
+A1X
+2
+V
+
+Course number 453:
+TDDD97
+Webbprogrammering
+6
+G2X
+3
+V
+
+Course number 454:
+TDDE46
+Programvarukvalitet
+6*
+A1X
+2
+V
+
+Course number 455:
+TDDE61
+Etisk hackning
+6*
+A1X
+1
+V
+
+Course number 456:
+TEAE21
+Cybers‰kerhetsr‰tt
+6
+G1X
+3
+V
+
+Course number 457:
+TDDD27
+Avancerad webbprogrammering
+6
+A1X
+3
+V
+
+Course number 458:
+TDDD38
+Avancerad programmering i C++
+6*
+A1X
+1
+V
+
+Course number 459:
+TDDE34
+Mjukvaruverifiering
+6
+A1X
+1
+V
+
+Course number 460:
+TDDE46
+Programvarukvalitet
+6*
+A1X
+2
+V
+
+Course number 461:
+TDDE61
+Etisk hackning
+6*
+A1X
+2
+V
+
+Course number 462:
+TEIG01
+Organisation fˆr cybers‰kerhet
+6
+A1X
+4
+V
+
+Course number 463:
+TANA21
+Ber‰kningsmatematik
+6
+G1X
+3
+O/V
+
+Course number 464:
+TAMS39
+Multivariat statistik
+6
+A1X
+4
+V
+
+Course number 465:
+TBMI28
+E-h‰lsa: projekt
+12*
+A1X
+4
+V
+
+Course number 466:
+TDDD23
+Design och programmering av datorspel
+6
+A1X
+2
+V
+
+Course number 467:
+TDDD43
+Datamodeller och databaser, avancerad kurs
+6*
+A1X
+2
+V
+
+Course number 468:
+TDDD53
+Avancerad interaktionsdesign
+6
+A1X
+1
+V
+
+Course number 469:
+TDDE15
+Avancerad maskininl‰rning
+6
+A1X
+1
+V
+
+Course number 470:
+TDDE19
+Avancerad projektkurs: AI och maskininl‰rning
+6*
+A1X
+4
+V
+
+Course number 471:
+TDDE20
+Avancerad projektkurs: Spel-, app- och webbutveckling
+6*
+A1X
+4
+V
+
+Course number 472:
+TDDE21
+Avancerad projektkurs: S‰kra distribuerade och inbyggda system
+6*
+A1X
+4
+V
+
+Course number 473:
+TDDE45
+Avancerad programvarudesign
+6
+A1X
+4
+V
+
+Course number 474:
+TDDE52
+Programmeringsprojekt med ˆppen k‰llkod
+6*
+A1X
+4
+V
+
+Course number 475:
+TDDE58
+TrÂdlˆsa kommunikationsn‰tverk
+6
+A1X
+2
+V
+
+Course number 476:
+TDDE63
+Avancerad projektkurs: Informationss‰kerhet
+6*
+A1X
+4
+V
+
+Course number 477:
+TDTS06
+Datorn‰t
+6
+G2X
+1
+V
+
+Course number 478:
+TEIM11
+Industriell marknadsfˆring
+6
+G2X
+3
+V
+
+Course number 479:
+TEIO90
+Innovationsledning
+6
+A1X
+2
+V
+
+Course number 480:
+TNCG15
+Advanced Global Illumination and Rendering
+6
+A1X
+4
+V
+
+Course number 481:
+TNM067
+Vetenskaplig visualisering
+6
+A1X
+3
+V
+
+Course number 482:
+TNM114
+Artificiell intelligens fˆr interaktiv media, projektkurs
+6
+A1X
+2
+V
+
+Course number 483:
+TSBB11
+Bilder och grafik, projektkurs, CDIO
+12*
+A1X
+4
+V
+
+Course number 484:
+TSBB19
+Maskininl‰rning fˆr datorseende
+6
+A1X
+2
+V
+
+Course number 485:
+TSBK03
+Teknik fˆr avancerade datorspel
+6*
+A1X
+1
+V
+
+Course number 486:
+TSEA84
+Digitalt konstruktionsprojekt
+6*
+A1X
+1
+V
+
+Course number 487:
+TSEK03
+Integrerade radiofrekvenskretsar
+6
+A1X
+2
+V
+
+Course number 488:
+TSFS12
+Autonoma farkoster - planering, reglering och l‰rande system
+6
+A1X
+1
+V
+
+Course number 489:
+TSIN01
+Informationsn‰t
+6
+A1X
+3
+V
+
+Course number 490:
+TSIT14
+Digital forensik och incidentrespons
+6
+A1X
+
+V
+
+Course number 491:
+TSKS12
+Modern kanalkodning, inferens och inl‰rning
+6
+A1X
+1
+V
+
+Course number 492:
+TSKS23
+Projektkurs i signalbehandling, kommunikation och n‰tverk, CDIO
+12*
+A1X
+4
+V
+
+Course number 493:
+TSRT10
+Reglerteknisk projektkurs, CDIO
+12*
+A1X
+4
+V
+
+Course number 494:
+TSTE17
+Systemkonstruktion CDIO
+12*
+A1X
+4
+V
+
+Course number 495:
+TSTE28
+Effektelektronik
+6
+A1X
+3
+V
+
+Course number 496:
+TDDD89
+Vetenskaplig metod
+6
+A1X
+3
+O
+
+Course number 497:
+TANA09
+Datatekniska ber‰kningar
+4
+G2X
+1
+O/V
+
+Course number 498:
+TBMI02
+Medicinsk bildanalys
+6
+A1X
+1
+V
+
+Course number 499:
+TBMI28
+E-h‰lsa: projekt
+12*
+A1X
+4
+V
+
+Course number 500:
+TDDC90
+Software Security
+6
+A1X
+1
+V
+
+Course number 501:
+TDDD07
+Realtidssystem
+6
+A1X
+4
+V
+
+Course number 502:
+TDDD43
+Datamodeller och databaser, avancerad kurs
+6*
+A1X
+2
+V
+
+Course number 503:
+TDDD56
+Multicore- och GPU-Programmering
+6
+A1X
+2
+V
+
+Course number 504:
+TDDE13
+Multiagentsystem
+6
+A1X
+1
+V
+
+Course number 505:
+TDDE16
+Text Mining
+6
+A1X
+2
+V
+
+Course number 506:
+TDDE19
+Avancerad projektkurs: AI och maskininl‰rning
+6*
+A1X
+4
+V
+
+Course number 507:
+TDDE20
+Avancerad projektkurs: Spel-, app- och webbutveckling
+6*
+A1X
+4
+V
+
+Course number 508:
+TDDE21
+Avancerad projektkurs: S‰kra distribuerade och inbyggda system
+6*
+A1X
+4
+V
+
+Course number 509:
+TDDE52
+Programmeringsprojekt med ˆppen k‰llkod
+6*
+A1X
+4
+V
+
+Course number 510:
+TDDE57
+Analys och utv‰rdering av kommunikationsn‰tverk
+6
+A1X
+1
+V
+
+Course number 511:
+TDDE63
+Avancerad projektkurs: Informationss‰kerhet
+6*
+A1X
+4
+V
+
+Course number 512:
+TDDE66
+Kompilatorkonstruktion
+6
+A1X
+1
+V
+
+Course number 513:
+TGTU49
+Teknikhistoria
+6
+G1X
+1
+V
+
+Course number 514:
+TNM116
+Utvidgad verklighet (XR) - principer och programmering
+6
+A1X
+2
+V
+
+Course number 515:
+TSBB11
+Bilder och grafik, projektkurs, CDIO
+12*
+A1X
+4
+V
+
+Course number 516:
+TSBK03
+Teknik fˆr avancerade datorspel
+6*
+A1X
+-
+V
+
+Course number 517:
+TSEA26
+Konstruktion av inbyggda DSP-processorer
+6
+A1X
+2
+V
+
+Course number 518:
+TSEA44
+Datorteknik - ett datorsystem pÂ ett chip
+6
+A1X
+1
+V
+
+Course number 519:
+TSEA84
+Digitalt konstruktionsprojekt
+6*
+A1X
+3
+V
+
+Course number 520:
+TSEK07
+Test och m‰tning av integrerade kretsar
+6
+A1X
+1
+V
+
+Course number 521:
+TSIN02
+Internetteknik
+6
+A1X
+1
+V
+
+Course number 522:
+TSKS23
+Projektkurs i signalbehandling, kommunikation och n‰tverk, CDIO
+12*
+A1X
+4
+V
+
+Course number 523:
+TSRT10
+Reglerteknisk projektkurs, CDIO
+12*
+A1X
+4
+V
+
+Course number 524:
+TSTE17
+Systemkonstruktion CDIO
+12*
+A1X
+4
+V
+
+Course number 525:
+TSTE26
+Elkraftn‰t och teknik fˆr fˆrnyelsebar elproduktion
+6
+A1X
+3
+V
+
+Course number 526:
+TSTE85
+LÂgeffektselektronik
+6
+A1X
+2
+V
+
+Course number 527:
+TDDE19
+Avancerad projektkurs: AI och maskininl‰rning
+6*
+A1X
+4
+O
+
+Course number 528:
+TDDE15
+Avancerad maskininl‰rning
+6
+A1X
+1
+V
+
+Course number 529:
+TSBB19
+Maskininl‰rning fˆr datorseende
+6
+A1X
+2
+V
+
+Course number 530:
+TSFS12
+Autonoma farkoster - planering, reglering och l‰rande system
+6
+A1X
+1
+V
+
+Course number 531:
+TSRT92
+Modellering och inl‰rning fˆr dynamiska system
+6
+A1X
+3
+V
+
+Course number 532:
+TDDE19
+Avancerad projektkurs: AI och maskininl‰rning
+6*
+A1X
+4
+O
+
+Course number 533:
+TDDE13
+Multiagentsystem
+6
+A1X
+1
+V
+
+Course number 534:
+TDDE16
+Text Mining
+6
+A1X
+2
+V
+
+Course number 535:
+TSBB19
+Maskininl‰rning fˆr datorseende
+6
+A1X
+2
+V
+
+Course number 536:
+TSRT10
+Reglerteknisk projektkurs, CDIO
+12*
+A1X
+4
+V
+
+Course number 537:
+TDDE01
+Maskininl‰rning
+6
+A1X
+1
+O
+
+Course number 538:
+TSRT10
+Reglerteknisk projektkurs, CDIO
+12*
+A1X
+4
+V
+
+Course number 539:
+TDDE21
+Avancerad projektkurs: S‰kra distribuerade och inbyggda system
+6*
+A1X
+4
+O
+
+Course number 540:
+TDDD43
+Datamodeller och databaser, avancerad kurs
+6*
+A1X
+2
+V
+
+Course number 541:
+TSIT03
+Kryptoteknik
+6
+A1X
+2
+V
+
+Course number 542:
+TDDE21
+Avancerad projektkurs: S‰kra distribuerade och inbyggda system
+6*
+A1X
+4
+O
+
+Course number 543:
+TDDC90
+Software Security
+6
+A1X
+1
+V
+
+Course number 544:
+TDDD37
+Databasteknik
+6
+G2X
+1
+V
+
+Course number 545:
+TDDD43
+Datamodeller och databaser, avancerad kurs
+6*
+A1X
+2
+V
+
+Course number 546:
+TDDD56
+Multicore- och GPU-Programmering
+6
+A1X
+2
+V
+
+Course number 547:
+TDDE66
+Kompilatorkonstruktion
+6
+A1X
+1
+V
+
+Course number 548:
+TSEA26
+Konstruktion av inbyggda DSP-processorer
+6
+A1X
+2
+V
+
+Course number 549:
+TSIN02
+Internetteknik
+6
+A1X
+1
+V
+
+Course number 550:
+TSEA84
+Digitalt konstruktionsprojekt
+6*
+A1X
+1
+V
+
+Course number 551:
+TSEK03
+Integrerade radiofrekvenskretsar
+6
+A1X
+2
+V
+
+Course number 552:
+TSTE17
+Systemkonstruktion CDIO
+12*
+A1X
+4
+V
+
+Course number 553:
+TSTE28
+Effektelektronik
+6
+A1X
+3
+V
+
+Course number 554:
+TSEA26
+Konstruktion av inbyggda DSP-processorer
+6
+A1X
+2
+V
+
+Course number 555:
+TSEA44
+Datorteknik - ett datorsystem pÂ ett chip
+6
+A1X
+1
+V
+
+Course number 556:
+TSEA84
+Digitalt konstruktionsprojekt
+6*
+A1X
+3
+V
+
+Course number 557:
+TSEK07
+Test och m‰tning av integrerade kretsar
+6
+A1X
+1
+V
+
+Course number 558:
+TSTE17
+Systemkonstruktion CDIO
+12*
+A1X
+4
+V
+
+Course number 559:
+TSTE26
+Elkraftn‰t och teknik fˆr fˆrnyelsebar elproduktion
+6
+A1X
+3
+V
+
+Course number 560:
+TSTE85
+LÂgeffektselektronik
+6
+A1X
+2
+V
+
+Course number 561:
+TEIM11
+Industriell marknadsfˆring
+6
+G2X
+3
+O
+
+Course number 562:
+TEIO90
+Innovationsledning
+6
+A1X
+2
+O
+
+Course number 563:
+TDDD69
+Programutvecklingsmetodik - fˆretagsprojekt
+6*
+A1X
+1
+O
+
+Course number 564:
+TDDD04
+Programvarutestning
+6
+A1X
+2
+V
+
+Course number 565:
+TDDD38
+Avancerad programmering i C++
+6*
+A1X
+2
+V
+
+Course number 566:
+TDDD43
+Datamodeller och databaser, avancerad kurs
+6*
+A1X
+2
+V
+
+Course number 567:
+TDDE45
+Avancerad programvarudesign
+6
+A1X
+4
+V
+
+Course number 568:
+TDDC34
+Teknisk, ekonomisk och samh‰llelig utv‰rdering av IT-produkter
+6
+A1X
+4
+O
+
+Course number 569:
+TDDD69
+Programutvecklingsmetodik - fˆretagsprojekt
+6*
+A1X
+1
+O
+
+Course number 570:
+TDDC90
+Software Security
+6
+A1X
+1
+V
+
+Course number 571:
+TDDD07
+Realtidssystem
+6
+A1X
+4
+V
+
+Course number 572:
+TDDD38
+Avancerad programmering i C++
+6*
+A1X
+1
+V
+
+Course number 573:
+TDDD43
+Datamodeller och databaser, avancerad kurs
+6*
+A1X
+2
+V
+
+Course number 574:
+TDEI19
+Ekonomisk styrning
+6
+A1X
+2
+V
+
+Course number 575:
+TEIM13
+Interkulturell kommunikation
+6
+G1X
+4
+V
+
+Course number 576:
+TSIN01
+Informationsn‰t
+6
+A1X
+3
+O
+
+Course number 577:
+TSKS23
+Projektkurs i signalbehandling, kommunikation och n‰tverk, CDIO
+12*
+A1X
+4
+O
+
+Course number 578:
+TSIT03
+Kryptoteknik
+6
+A1X
+2
+V
+
+Course number 579:
+TSKS12
+Modern kanalkodning, inferens och inl‰rning
+6
+A1X
+1
+V
+
+Course number 580:
+TSKS23
+Projektkurs i signalbehandling, kommunikation och n‰tverk, CDIO
+12*
+A1X
+4
+O
+
+Course number 581:
+TDDD07
+Realtidssystem
+6
+A1X
+4
+V
+
+Course number 582:
+TDDE57
+Analys och utv‰rdering av kommunikationsn‰tverk
+6
+A1X
+1
+V
+
+Course number 583:
+TBMI28
+E-h‰lsa: projekt
+12*
+A1X
+4
+V
+
+Course number 584:
+TDDC17
+Artificiell intelligens
+6
+G2X
+3
+V
+
+Course number 585:
+TDDD43
+Datamodeller och databaser, avancerad kurs
+6*
+A1X
+2
+V
+
+Course number 586:
+TBMI28
+E-h‰lsa: projekt
+12*
+A1X
+4
+V
+
+Course number 587:
+TDDD43
+Datamodeller och databaser, avancerad kurs
+6*
+A1X
+2
+V
+
+Course number 588:
+TDDE01
+Maskininl‰rning
+6
+A1X
+1
+V
+
+Course number 589:
+TDDE52
+Programmeringsprojekt med ˆppen k‰llkod
+6*
+A1X
+4
+O
+
+Course number 590:
+TSIT03
+Kryptoteknik
+6
+A1X
+2
+V
+
+Course number 591:
+TDDE52
+Programmeringsprojekt med ˆppen k‰llkod
+6*
+A1X
+4
+O
+
+Course number 592:
+TDDD56
+Multicore- och GPU-Programmering
+6
+A1X
+2
+V
+
+Course number 593:
+TDDE66
+Kompilatorkonstruktion
+6
+A1X
+1
+V
+
+Course number 594:
+TNM067
+Vetenskaplig visualisering
+6
+A1X
+3
+V
+
+Course number 595:
+TSBB11
+Bilder och grafik, projektkurs, CDIO
+12*
+A1X
+4
+V
+
+Course number 596:
+TSBB19
+Maskininl‰rning fˆr datorseende
+6
+A1X
+2
+V
+
+Course number 597:
+TSBK03
+Teknik fˆr avancerade datorspel
+6*
+A1X
+1
+V
+
+Course number 598:
+TSKS15
+Detektion och estimering av signaler
+6
+A1X
+4
+V
+
+Course number 599:
+TBMI02
+Medicinsk bildanalys
+6
+A1X
+1
+V
+
+Course number 600:
+TDDD56
+Multicore- och GPU-Programmering
+6
+A1X
+2
+V
+
+Course number 601:
+TDDE01
+Maskininl‰rning
+6
+A1X
+1
+V
+
+Course number 602:
+TNM116
+Utvidgad verklighet (XR) - principer och programmering
+6
+A1X
+2
+V
+
+Course number 603:
+TSBB11
+Bilder och grafik, projektkurs, CDIO
+12*
+A1X
+4
+V
+
+Course number 604:
+TSBK03
+Teknik fˆr avancerade datorspel
+6*
+A1X
+-
+V
+
+Course number 605:
+TSBK03
+Teknik fˆr avancerade datorspel
+6*
+A1X
+1
+O
+
+Course number 606:
+TDDE20
+Avancerad projektkurs: Spel-, app- och webbutveckling
+6*
+A1X
+4
+V
+
+Course number 607:
+TNCG15
+Advanced Global Illumination and Rendering
+6
+A1X
+4
+V
+
+Course number 608:
+TSBB11
+Bilder och grafik, projektkurs, CDIO
+12*
+A1X
+4
+V
+
+Course number 609:
+TSBK03
+Teknik fˆr avancerade datorspel
+6*
+A1X
+-
+O
+
+Course number 610:
+TDDE20
+Avancerad projektkurs: Spel-, app- och webbutveckling
+6*
+A1X
+4
+V
+
+Course number 611:
+TSBB11
+Bilder och grafik, projektkurs, CDIO
+12*
+A1X
+4
+V
+
+Course number 612:
+TSIN02
+Internetteknik
+6
+A1X
+1
+V
+
+Course number 613:
+TDDE52
+Programmeringsprojekt med ˆppen k‰llkod
+6*
+A1X
+4
+O
+
+Course number 614:
+TDDD38
+Avancerad programmering i C++
+6*
+A1X
+2
+V
+
+Course number 615:
+TDDD53
+Avancerad interaktionsdesign
+6
+A1X
+1
+V
+
+Course number 616:
+TDDE52
+Programmeringsprojekt med ˆppen k‰llkod
+6*
+A1X
+4
+O
+
+Course number 617:
+TDDD38
+Avancerad programmering i C++
+6*
+A1X
+1
+V
+
+Course number 618:
+TDTS08
+Datorarkitektur
+6
+A1X
+2
+V
+
+Course number 619:
+TSEA84
+Digitalt konstruktionsprojekt
+6*
+A1X
+1
+V
+
+Course number 620:
+TSTE17
+Systemkonstruktion CDIO
+12*
+A1X
+4
+V
+
+Course number 621:
+TSEA26
+Konstruktion av inbyggda DSP-processorer
+6
+A1X
+2
+O
+
+Course number 622:
+TDDD56
+Multicore- och GPU-Programmering
+6
+A1X
+2
+V
+
+Course number 623:
+TDDE66
+Kompilatorkonstruktion
+6
+A1X
+1
+V
+
+Course number 624:
+TSEA44
+Datorteknik - ett datorsystem pÂ ett chip
+6
+A1X
+1
+V
+
+Course number 625:
+TSEA84
+Digitalt konstruktionsprojekt
+6*
+A1X
+3
+V
+
+Course number 626:
+TSEK07
+Test och m‰tning av integrerade kretsar
+6
+A1X
+1
+V
+
+Course number 627:
+TSIT02
+Datas‰kerhet
+6
+G2X
+2
+V
+
+Course number 628:
+TSTE17
+Systemkonstruktion CDIO
+12*
+A1X
+4
+V
+
+Course number 629:
+TSTE85
+LÂgeffektselektronik
+6
+A1X
+2
+V
+
+Course number 630:
+TDDD04
+Programvarutestning
+6
+A1X
+2
+O
+
+Course number 631:
+TDDE63
+Avancerad projektkurs: Informationss‰kerhet
+6*
+A1X
+4
+O
+
+Course number 632:
+TSIT14
+Digital forensik och incidentrespons
+6
+A1X
+
+V
+
+Course number 633:
+TDDC90
+Software Security
+6
+A1X
+1
+O
+
+Course number 634:
+TDDE63
+Avancerad projektkurs: Informationss‰kerhet
+6*
+A1X
+4
+O
+
+Course number 635:
+TQXX33
+Examensarbete
+30*
+A1X
+-
+O
+
+Course number 636:
+TQXX33
+Examensarbete
+30*
+A1X
+-
+O
+
