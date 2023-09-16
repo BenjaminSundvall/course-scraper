@@ -7,6 +7,35 @@ import json
 
 
 # %% Define functions
+def get_examinations(url):
+    # Load page from url
+    page = requests.get(url)
+    soup = BeautifulSoup(page.content, 'html.parser')
+    status = page.status_code
+    print(f"Status: {status}")
+
+    # Get data
+    today = date.today()
+    data = {
+        "version" : 0,
+        "date" : today.strftime("%Y-%m-%d"),
+        "examinations" : []
+    }
+
+    examinations_table = soup.select("table.table.table-striped.examinations-codes-table")[0]
+    for exam in examinations_table.select("tr")[1:]:
+        code = exam.select("td")[0].text.strip()
+        name = exam.select("td")[1].text.strip()
+        scope = exam.select("td")[2].text.strip()
+        scale = exam.select("td")[3].text.strip()
+
+        examination = {"code" : code,
+                       "name" : name,
+                       "scope" : scope,
+                       "scale" : scale}
+
+        data["examinations"].append(examination)
+
 
 def get_courses(period):
     courses = []
@@ -22,13 +51,16 @@ def get_courses(period):
         href = crs.select("a")[0].get("href")
         crs_url = "https://studieinfo.liu.se/" + href
 
+        crs_examinations = get_examinations(crs_url)
+
         course = {"code" : crs_code,
                   "name" : crs_name,
                   "credits" : crs_credits,
                   "level" : crs_level,
                   "tt_module" : crs_tt_module,
                   "ecv" : crs_ecv,
-                  "url" : crs_url}
+                  "url" : crs_url,
+                  "examinations" : crs_examinations}
         courses.append(course)
 
     return(courses)
@@ -109,7 +141,15 @@ def save_to_json(curriculum, save_file):
         json.dump(curriculum, f)
 
 
+def load_from_json(save_file):
+    with open(save_file, "r", encoding="utf8") as f:
+        curriculum = json.load(f)
+
+    return curriculum
+
+
 # %% Run code
 
 curriculum = get_curriculum("https://studieinfo.liu.se/en/program/6CDDD/4617#curriculum")
 save_to_json(curriculum, "curriculum.json")
+# %%
