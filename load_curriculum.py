@@ -136,6 +136,7 @@ def get_curriculum(url):
 
     curriculum["semesters"] = get_semesters(soup)
 
+    print(f"Finished reading curriculum from {url}")
     return curriculum
 
 
