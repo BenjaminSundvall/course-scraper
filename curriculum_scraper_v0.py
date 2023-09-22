@@ -4,7 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 from datetime import date
 import json
-import jq
+# import jq
 
 
 # %% Define functions
@@ -16,12 +16,14 @@ def get_examinations(url):
     print(f"Status: {status}")
 
     # Get data
-    today = date.today()
-    data = {
-        "version" : 0,
-        "date" : today.strftime("%Y-%m-%d"),
-        "examinations" : []
-    }
+    # today = date.today()
+    # data = {
+    #     "version" : 0,
+    #     "date" : today.strftime("%Y-%m-%d"),
+    #     "examinations" : []
+    # }
+
+    examinations = []
 
     examinations_table = soup.select("table.table.table-striped.examinations-codes-table")[0]
     for exam in examinations_table.select("tr")[1:]:
@@ -35,12 +37,14 @@ def get_examinations(url):
                        "scope" : scope,
                        "scale" : scale}
 
-        data["examinations"].append(examination)
+        # data["examinations"].append(examination)
+        examinations.append(examination)
 
-    return data
+    # return data
+    return examinations
 
 
-def get_courses(period):
+def get_courses(period, get_exam):
     courses = []
 
     for crs in period.select("tr.main-row"):
@@ -54,7 +58,9 @@ def get_courses(period):
         href = crs.select("a")[0].get("href")
         crs_url = "https://studieinfo.liu.se/" + href
 
-        crs_examinations = get_examinations(crs_url)
+        crs_examinations = []
+        if get_exam:
+            crs_examinations = get_examinations(crs_url)
 
         course = {"code" : crs_code,
                   "name" : crs_name,
@@ -69,7 +75,7 @@ def get_courses(period):
     return(courses)
 
 
-def get_periods(specialization):
+def get_periods(specialization, get_exam):
     periods = []
 
     for i, prd in enumerate(specialization.select("tbody.period")):
@@ -78,13 +84,13 @@ def get_periods(specialization):
         period = {"title" : period_title,
                 "courses" : []}
 
-        period["courses"] = get_courses(prd)
+        period["courses"] = get_courses(prd, get_exam)
         periods.append(period)
 
     return periods
 
 
-def get_specializations(semester):
+def get_specializations(semester, get_exam):
     specializations = []
 
     for spec in semester.select("div.specialization"):
@@ -96,13 +102,13 @@ def get_specializations(semester):
         specialization = {"title" : specialization_title,
                         "periods" : []}
 
-        specialization["periods"] = get_periods(spec)
+        specialization["periods"] = get_periods(spec, get_exam)
         specializations.append(specialization)
 
     return specializations
 
 
-def get_semesters(soup):
+def get_semesters(soup, get_exam):
     semesters = []
 
     for sem in soup.select("section.accordion.semester"):
@@ -111,13 +117,13 @@ def get_semesters(soup):
         semester = {"title" : semester_title,
                     "specializations" : []}
 
-        semester["specializations"] = get_specializations(sem)
+        semester["specializations"] = get_specializations(sem, get_exam)
         semesters.append(semester)
 
     return semesters
 
 
-def get_curriculum(url):
+def get_curriculum(url, get_exam):
     # Load page from url
     page = requests.get(url)
     soup = BeautifulSoup(page.content, 'html.parser')
@@ -134,7 +140,7 @@ def get_curriculum(url):
         "semesters" : []
     }
 
-    curriculum["semesters"] = get_semesters(soup)
+    curriculum["semesters"] = get_semesters(soup, get_exam)
 
     print(f"Finished reading curriculum from {url}")
     return curriculum
@@ -151,12 +157,4 @@ def load_from_json(save_file):
 
     return curriculum
 
-
-# %% Run code
-
-curriculum = get_curriculum("https://studieinfo.liu.se/en/program/6CDDD/4617#curriculum")
-save_to_json(curriculum, "curriculum.json")
-
 # %%
-examinations = get_examinations("https://studieinfo.liu.se//en/kurs/TATA65/ht-2020")
-print(examinations)

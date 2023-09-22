@@ -1,5 +1,5 @@
 # %%
-from load_curriculum import load_from_json, get_examinations
+from curriculum_scraper_v0 import load_from_json, get_examinations
 import json
 from bs4 import BeautifulSoup
 import requests
