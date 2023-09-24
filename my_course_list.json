@@ -1,0 +1,370 @@
+{
+    "HT1": {
+        "TDDC17": {
+            "name": "Artificiell intelligens",
+            "credits": "6",
+            "level": "G2X",
+            "tt_module": "3",
+            "ecv": "O",
+            "url": "https://studieinfo.liu.se//kurs/TDDC17/ht-2023",
+            "examinations": {}
+        },
+        "TBMI19": {
+            "name": "Medicinska informationssystem",
+            "credits": "6*",
+            "level": "A1X",
+            "tt_module": "2",
+            "ecv": "V",
+            "url": "https://studieinfo.liu.se//kurs/TBMI19/ht-2023",
+            "examinations": {}
+        },
+        "TDDD08": {
+            "name": "Logikprogrammering",
+            "credits": "6",
+            "level": "A1X",
+            "tt_module": "4",
+            "ecv": "V",
+            "url": "https://studieinfo.liu.se//kurs/TDDD08/ht-2023",
+            "examinations": {}
+        },
+        "TSBB06": {
+            "name": "Multidimensionell signalanalys",
+            "credits": "6*",
+            "level": "A1X",
+            "tt_module": "2",
+            "ecv": "V",
+            "url": "https://studieinfo.liu.se//kurs/TSBB06/ht-2023",
+            "examinations": {}
+        },
+        "TSBB08": {
+            "name": "Digital bildbehandling grundkurs",
+            "credits": "6",
+            "level": "A1X",
+            "tt_module": "4",
+            "ecv": "O",
+            "url": "https://studieinfo.liu.se//kurs/TSBB08/ht-2023",
+            "examinations": {}
+        },
+        "TSFS12": {
+            "name": "Autonoma farkoster - planering, reglering och l\u00e4rande system",
+            "credits": "6",
+            "level": "A1X",
+            "tt_module": "1",
+            "ecv": "V",
+            "url": "https://studieinfo.liu.se//kurs/TSFS12/ht-2024",
+            "examinations": {}
+        },
+        "TDDE19": {
+            "name": "Avancerad projektkurs: AI och maskininl\u00e4rning",
+            "credits": "6*",
+            "level": "A1X",
+            "tt_module": "4",
+            "ecv": "O",
+            "url": "https://studieinfo.liu.se//kurs/TDDE19/ht-2024",
+            "examinations": {}
+        },
+        "TDDE15": {
+            "name": "Avancerad maskininl\u00e4rning",
+            "credits": "6",
+            "level": "A1X",
+            "tt_module": "1",
+            "ecv": "V",
+            "url": "https://studieinfo.liu.se//kurs/TDDE15/ht-2024",
+            "examinations": {}
+        },
+        "TSBB19": {
+            "name": "Maskininl\u00e4rning f\u00f6r datorseende",
+            "credits": "6",
+            "level": "A1X",
+            "tt_module": "2",
+            "ecv": "V",
+            "url": "https://studieinfo.liu.se//kurs/TSBB19/ht-2024",
+            "examinations": {}
+        },
+        "TSRT92": {
+            "name": "Modellering och inl\u00e4rning f\u00f6r dynamiska system",
+            "credits": "6",
+            "level": "A1X",
+            "tt_module": "3",
+            "ecv": "V",
+            "url": "https://studieinfo.liu.se//kurs/TSRT92/ht-2024",
+            "examinations": {}
+        },
+        "TSRT10": {
+            "name": "Reglerteknisk projektkurs, CDIO",
+            "credits": "12*",
+            "level": "A1X",
+            "tt_module": "4",
+            "ecv": "V",
+            "url": "https://studieinfo.liu.se//kurs/TSRT10/ht-2024",
+            "examinations": {}
+        }
+    },
+    "HT2": {
+        "TDDE01": {
+            "name": "Maskininl\u00e4rning",
+            "credits": "6",
+            "level": "A1X",
+            "tt_module": "1",
+            "ecv": "O",
+            "url": "https://studieinfo.liu.se//kurs/TDDE01/ht-2024",
+            "examinations": {}
+        },
+        "TBMI19": {
+            "name": "Medicinska informationssystem",
+            "credits": "6*",
+            "level": "A1X",
+            "tt_module": "3",
+            "ecv": "V",
+            "url": "https://studieinfo.liu.se//kurs/TBMI19/ht-2023",
+            "examinations": {}
+        },
+        "TSBB06": {
+            "name": "Multidimensionell signalanalys",
+            "credits": "6*",
+            "level": "A1X",
+            "tt_module": "3",
+            "ecv": "V",
+            "url": "https://studieinfo.liu.se//kurs/TSBB06/ht-2023",
+            "examinations": {}
+        },
+        "TSKS33": {
+            "name": "Komplexa n\u00e4tverk och stora datam\u00e4ngder",
+            "credits": "6",
+            "level": "A1X",
+            "tt_module": "3",
+            "ecv": "V",
+            "url": "https://studieinfo.liu.se//kurs/TSKS33/ht-2023",
+            "examinations": {}
+        },
+        "TSIT02": {
+            "name": "Datas\u00e4kerhet",
+            "credits": "6",
+            "level": "G2X",
+            "tt_module": "2",
+            "ecv": "V",
+            "url": "https://studieinfo.liu.se//kurs/TSIT02/ht-2023",
+            "examinations": {}
+        },
+        "TSRT08": {
+            "name": "Optimal styrning",
+            "credits": "6",
+            "level": "A1X",
+            "tt_module": "3",
+            "ecv": "V",
+            "url": "https://studieinfo.liu.se//kurs/TSRT08/ht-2023",
+            "examinations": {}
+        },
+        "TDDE19": {
+            "name": "Avancerad projektkurs: AI och maskininl\u00e4rning",
+            "credits": "6*",
+            "level": "A1X",
+            "tt_module": "4",
+            "ecv": "O",
+            "url": "https://studieinfo.liu.se//kurs/TDDE19/ht-2024",
+            "examinations": {}
+        },
+        "TDDE13": {
+            "name": "Multiagentsystem",
+            "credits": "6",
+            "level": "A1X",
+            "tt_module": "1",
+            "ecv": "V",
+            "url": "https://studieinfo.liu.se//kurs/TDDE13/ht-2024",
+            "examinations": {}
+        },
+        "TDDE16": {
+            "name": "Text Mining",
+            "credits": "6",
+            "level": "A1X",
+            "tt_module": "2",
+            "ecv": "V",
+            "url": "https://studieinfo.liu.se//kurs/TDDE16/ht-2024",
+            "examinations": {}
+        },
+        "TSRT10": {
+            "name": "Reglerteknisk projektkurs, CDIO",
+            "credits": "12*",
+            "level": "A1X",
+            "tt_module": "4",
+            "ecv": "V",
+            "url": "https://studieinfo.liu.se//kurs/TSRT10/ht-2024",
+            "examinations": {}
+        }
+    },
+    "VT1": {
+        "TBMI26": {
+            "name": "Neuronn\u00e4t och l\u00e4rande system",
+            "credits": "6",
+            "level": "A1X",
+            "tt_module": "2",
+            "ecv": "V",
+            "url": "https://studieinfo.liu.se//kurs/TBMI26/vt-2024",
+            "examinations": {}
+        },
+        "TDDD20": {
+            "name": "Konstruktion och analys av algoritmer",
+            "credits": "6",
+            "level": "A1X",
+            "tt_module": "3",
+            "ecv": "V",
+            "url": "https://studieinfo.liu.se//kurs/TDDD20/vt-2024",
+            "examinations": {}
+        },
+        "TDDD41": {
+            "name": "Data Mining - Clustering and Association Analysis",
+            "credits": "6",
+            "level": "A1X",
+            "tt_module": "3",
+            "ecv": "V",
+            "url": "https://studieinfo.liu.se//kurs/TDDD41/vt-2024",
+            "examinations": {}
+        },
+        "TDDD95": {
+            "name": "Algoritmisk probleml\u00f6sning",
+            "credits": "6*",
+            "level": "A1X",
+            "tt_module": "1",
+            "ecv": "V",
+            "url": "https://studieinfo.liu.se//kurs/TDDD95/vt-2024",
+            "examinations": {}
+        },
+        "TDDE05": {
+            "name": "AI-robotik",
+            "credits": "6*",
+            "level": "A1X",
+            "tt_module": "4",
+            "ecv": "V",
+            "url": "https://studieinfo.liu.se//kurs/TDDE05/vt-2024",
+            "examinations": {}
+        },
+        "TDDE09": {
+            "name": "Spr\u00e5kteknologi",
+            "credits": "6",
+            "level": "A1X",
+            "tt_module": "2",
+            "ecv": "V",
+            "url": "https://studieinfo.liu.se//kurs/TDDE09/vt-2024",
+            "examinations": {}
+        },
+        "TSRT07": {
+            "name": "Industriell reglerteknik",
+            "credits": "6",
+            "level": "A1X",
+            "tt_module": "2",
+            "ecv": "O",
+            "url": "https://studieinfo.liu.se//kurs/TSRT07/vt-2024",
+            "examinations": {}
+        },
+        "TSBB34": {
+            "name": "Datorseende f\u00f6r videoanalys",
+            "credits": "6",
+            "level": "A1X",
+            "tt_module": "1",
+            "ecv": "V",
+            "url": "https://studieinfo.liu.se//kurs/TSBB34/vt-2024",
+            "examinations": {}
+        },
+        "TSRT09": {
+            "name": "Reglerteori",
+            "credits": "6",
+            "level": "A1X",
+            "tt_module": "3",
+            "ecv": "V",
+            "url": "https://studieinfo.liu.se//kurs/TSRT09/vt-2024",
+            "examinations": {}
+        }
+    },
+    "VT2": {
+        "TDDD48": {
+            "name": "Automatisk planering",
+            "credits": "6",
+            "level": "A1X",
+            "tt_module": "1",
+            "ecv": "V",
+            "url": "https://studieinfo.liu.se//kurs/TDDD48/vt-2024",
+            "examinations": {}
+        },
+        "TDDD95": {
+            "name": "Algoritmisk probleml\u00f6sning",
+            "credits": "6*",
+            "level": "A1X",
+            "tt_module": "4",
+            "ecv": "V",
+            "url": "https://studieinfo.liu.se//kurs/TDDD95/vt-2024",
+            "examinations": {}
+        },
+        "TDDE05": {
+            "name": "AI-robotik",
+            "credits": "6*",
+            "level": "A1X",
+            "tt_module": "4",
+            "ecv": "V",
+            "url": "https://studieinfo.liu.se//kurs/TDDE05/vt-2024",
+            "examinations": {}
+        },
+        "TDDE07": {
+            "name": "Bayesianska metoder",
+            "credits": "6",
+            "level": "A1X",
+            "tt_module": "2",
+            "ecv": "V",
+            "url": "https://studieinfo.liu.se//kurs/TDDE07/vt-2024",
+            "examinations": {}
+        },
+        "TDDE31": {
+            "name": "Big Data Analytics",
+            "credits": "6",
+            "level": "A1X",
+            "tt_module": "3",
+            "ecv": "V",
+            "url": "https://studieinfo.liu.se//kurs/TDDE31/vt-2024",
+            "examinations": {}
+        },
+        "TDDE64": {
+            "name": "Sports Analytics",
+            "credits": "6",
+            "level": "A1X",
+            "tt_module": "3",
+            "ecv": "V",
+            "url": "https://studieinfo.liu.se//kurs/TDDE64/vt-2024",
+            "examinations": {}
+        },
+        "TDDE70": {
+            "name": "Djup maskininl\u00e4rning",
+            "credits": "6",
+            "level": "A1X",
+            "tt_module": "1",
+            "ecv": "V",
+            "url": "https://studieinfo.liu.se//kurs/TDDE70/vt-2024",
+            "examinations": {}
+        },
+        "TSFS06": {
+            "name": "Diagnos och \u00f6vervakning",
+            "credits": "6",
+            "level": "A1X",
+            "tt_module": "1",
+            "ecv": "V",
+            "url": "https://studieinfo.liu.se//kurs/TSFS06/vt-2024",
+            "examinations": {}
+        },
+        "TSRT14": {
+            "name": "Sensorfusion",
+            "credits": "6",
+            "level": "A1X",
+            "tt_module": "3",
+            "ecv": "V",
+            "url": "https://studieinfo.liu.se//kurs/TSRT14/vt-2024",
+            "examinations": {}
+        },
+        "TSBB33": {
+            "name": "3D-datorseende",
+            "credits": "6",
+            "level": "A1X",
+            "tt_module": "3",
+            "ecv": "V",
+            "url": "https://studieinfo.liu.se//kurs/TSBB33/vt-2024",
+            "examinations": {}
+        }
+    }
+}
