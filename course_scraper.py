@@ -42,10 +42,6 @@ def it_courses(prd_soup):
         href = crs_soup.select("a")[0].get("href")
         crs_url = "https://studieinfo.liu.se/" + href
 
-        # crs_examinations = []
-        # if get_exam:
-        #     crs_examinations = get_examinations(crs_url)
-
         crs = {"code" : crs_code,
                   "name" : crs_name,
                   "credits" : crs_credits,
@@ -98,7 +94,22 @@ def get_course_data(url, get_exam):
     status = page.status_code
     print(f"Status: {status}")
 
+    today = date.today()
+    program = curr_soup.select("h1")[0].text.strip()
+
     courses = {}
+    i = 0
+
+    course_data = {
+        "version" : 0,
+        "date" : today.strftime("%Y-%m-%d"),
+        "url" : url,
+        "program": program,
+        "courses" : {},
+        "specializations" : [],
+        "semesters" : [],
+        "periods" : [],
+    }
 
     curr_soup = BeautifulSoup(page.content, 'html.parser')
     for sem_soup, sem in it_semesters(curr_soup):
@@ -106,7 +117,9 @@ def get_course_data(url, get_exam):
             for prd_soup, prd in it_periods(spec_soup):
                 for crs_soup, crs in it_courses(prd_soup):
                     if get_exam:
-                        crs["examinations"] = get_examinations(crs["url"])
+                        crs["examinations"], status = get_examinations(crs["url"])
+                        i += 1
+                        print(f"  {i}: Status {status}")
 
 
                     crs_code = crs["code"]
@@ -115,10 +128,9 @@ def get_course_data(url, get_exam):
                     prd_title = prd["title"]
 
                     if crs_code in courses:
-                        print(crs_code, "already added!")
-                        courses[crs_code]["semesters"].append(sem_title)
                         courses[crs_code]["specializations"].append(spec_title)
-                        courses[crs_code]["periods"].append(prd_title)
+                        courses[crs_code]["semesters"].append(sem_title)    # TODO: Fix duplicates
+                        courses[crs_code]["periods"].append(prd_title)      # TODO: Fix duplicates
                     else:
                         new_crs = {
                             "code" : crs["code"],
@@ -135,21 +147,7 @@ def get_course_data(url, get_exam):
                         }
                         courses[crs_code] = new_crs
 
-        #             prd['courses'].append(crs)
-        #         spec['periods'].append(prd)
-        #     sem['specializations'].append(spec)
-        # curriculum['semesters'].append(sem)
-
-    print(f"Finished reading course data from {url}")
-
-    today = date.today()
-
-    course_data = {
-        "version" : 0,
-        "date" : today.strftime("%Y-%m-%d"),
-        "url" : url,
-        "courses" : courses
-    }
+    print(f"Finished reading course data for {len(courses)} courses from {url}")
 
     return course_data
 
@@ -166,7 +164,7 @@ def load_from_json(save_file):
 
 # %%
 
-course_data = get_course_data("https://studieinfo.liu.se/en/program/6CDDD/4617#curriculum", get_exam=False)
-save_to_json(course_data, "course_data_v0.json")
+course_data = get_course_data("https://studieinfo.liu.se/en/program/6CDDD/4617#curriculum", get_exam=True)
+save_to_json(course_data, "course_data_v1.json")
 
 # %%

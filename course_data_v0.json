@@ -2,6 +2,7 @@
     "version": 0,
     "date": "2023-09-25",
     "url": "https://studieinfo.liu.se/en/program/6CDDD/4617#curriculum",
+    "program": "Master of Science in Computer Science and Engineering, 300 credits",
     "courses": {
         "TATA65": {
             "code": "TATA65",
@@ -11,7 +12,20 @@
             "tt_module": "-",
             "ecv": "C",
             "url": "https://studieinfo.liu.se//en/kurs/TATA65/ht-2020",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG1",
+                    "name": "Assignments",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 1 Autumn 2020",
                 "Semester 1 Autumn 2020"
@@ -33,7 +47,20 @@
             "tt_module": "-",
             "ecv": "C",
             "url": "https://studieinfo.liu.se//en/kurs/TDDE23/ht-2020",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "5 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "UPG1",
+                    "name": "Exercises",
+                    "scope": "1 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 1 Autumn 2020",
                 "Semester 1 Autumn 2020"
@@ -55,7 +82,14 @@
             "tt_module": "-",
             "ecv": "C",
             "url": "https://studieinfo.liu.se//en/kurs/TDDD70/ht-2020",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG1",
+                    "name": "Assignment",
+                    "scope": "1 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 1 Autumn 2020",
                 "Semester 1 Autumn 2020"
@@ -77,7 +111,20 @@
             "tt_module": "4",
             "ecv": "C",
             "url": "https://studieinfo.liu.se//en/kurs/TDDE25/ht-2020",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG1",
+                    "name": "Hand-in Assignments",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "PRA1",
+                    "name": "Project Work",
+                    "scope": "4 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 1 Autumn 2020",
                 "Semester 1 Autumn 2020"
@@ -99,7 +146,32 @@
             "tt_module": "2",
             "ecv": "C",
             "url": "https://studieinfo.liu.se//en/kurs/TATB04/ht-2020",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "TEN3",
+                    "name": "Written summary examination",
+                    "scope": "4.5 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "TEN2",
+                    "name": "Written partial examination",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written partial examination",
+                    "scope": "1.5 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "UPG1",
+                    "name": "Hand-in exercises",
+                    "scope": "1.5 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 1 Autumn 2020"
             ],
@@ -118,7 +190,20 @@
             "tt_module": "3",
             "ecv": "C",
             "url": "https://studieinfo.liu.se//en/kurs/TDDE24/ht-2020",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "DAT1",
+                    "name": "Computer Examination",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 1 Autumn 2020"
             ],
@@ -137,7 +222,14 @@
             "tt_module": "4",
             "ecv": "C",
             "url": "https://studieinfo.liu.se//en/kurs/TATA41/vt-2021",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "6 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 2 Spring 2021"
             ],
@@ -156,7 +248,14 @@
             "tt_module": "-",
             "ecv": "C",
             "url": "https://studieinfo.liu.se//en/kurs/TDDD79/vt-2021",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG1",
+                    "name": "Assignment",
+                    "scope": "1 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 2 Spring 2021",
                 "Semester 2 Spring 2021",
@@ -190,7 +289,14 @@
             "tt_module": "-",
             "ecv": "C",
             "url": "https://studieinfo.liu.se//en/kurs/TDDD94/vt-2021",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG1",
+                    "name": "Assignment",
+                    "scope": "1 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 2 Spring 2021",
                 "Semester 2 Spring 2021",
@@ -224,7 +330,14 @@
             "tt_module": "-",
             "ecv": "C",
             "url": "https://studieinfo.liu.se//en/kurs/TDDD98/vt-2021",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG1",
+                    "name": "Assignment",
+                    "scope": "1 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 2 Spring 2021",
                 "Semester 2 Spring 2021",
@@ -258,7 +371,26 @@
             "tt_module": "1/3",
             "ecv": "C",
             "url": "https://studieinfo.liu.se//en/kurs/TDDE30/vt-2021",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG1",
+                    "name": "Written assignment",
+                    "scope": "1 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "3 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "PRA1",
+                    "name": "Project assignment",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 2 Spring 2021",
                 "Semester 2 Spring 2021"
@@ -280,7 +412,20 @@
             "tt_module": "2",
             "ecv": "C",
             "url": "https://studieinfo.liu.se//en/kurs/TSEA22/vt-2021",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 2 Spring 2021"
             ],
@@ -299,7 +444,14 @@
             "tt_module": "2",
             "ecv": "C",
             "url": "https://studieinfo.liu.se//en/kurs/TATA42/vt-2021",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "6 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 2 Spring 2021"
             ],
@@ -318,7 +470,14 @@
             "tt_module": "4",
             "ecv": "C",
             "url": "https://studieinfo.liu.se//en/kurs/TSEA82/vt-2021",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "4 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 2 Spring 2021"
             ],
@@ -337,7 +496,20 @@
             "tt_module": "4",
             "ecv": "C",
             "url": "https://studieinfo.liu.se//en/kurs/TATA24/ht-2021",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "KTR1",
+                    "name": "Written test",
+                    "scope": "0 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "8 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 3 Autumn 2021",
                 "Semester 3 Autumn 2021"
@@ -359,7 +531,14 @@
             "tt_module": "-",
             "ecv": "C",
             "url": "https://studieinfo.liu.se//en/kurs/TDDD84/ht-2021",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG1",
+                    "name": "Assignment",
+                    "scope": "1 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 3 Autumn 2021",
                 "Semester 3 Autumn 2021"
@@ -381,7 +560,32 @@
             "tt_module": "2",
             "ecv": "C",
             "url": "https://studieinfo.liu.se//en/kurs/TDDD86/ht-2021",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG2",
+                    "name": "Written assignment",
+                    "scope": "1 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "UPG1",
+                    "name": "Computer based exercises",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "LAB1",
+                    "name": "Programming assignments",
+                    "scope": "5 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "DAT1",
+                    "name": "Computer examination",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 3 Autumn 2021",
                 "Semester 3 Autumn 2021"
@@ -403,7 +607,20 @@
             "tt_module": "3",
             "ecv": "C",
             "url": "https://studieinfo.liu.se//en/kurs/TSTE24/ht-2021",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG1",
+                    "name": "Lab examination",
+                    "scope": "3.5 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory works",
+                    "scope": "1.5 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 3 Autumn 2021"
             ],
@@ -422,7 +639,14 @@
             "tt_module": "-",
             "ecv": "V",
             "url": "https://studieinfo.liu.se//en/kurs/TATA40/ht-2021",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "MOM1",
+                    "name": "Participation in at least 12 of 16 lectures",
+                    "scope": "1 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 3 Autumn 2021",
                 "Semester 3 Autumn 2021",
@@ -450,7 +674,26 @@
             "tt_module": "1",
             "ecv": "C",
             "url": "https://studieinfo.liu.se//en/kurs/TFYA93/ht-2021",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "KTR1",
+                    "name": "Optional examination",
+                    "scope": "0 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "1 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written exam",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 3 Autumn 2021"
             ],
@@ -469,7 +712,32 @@
             "tt_module": "4",
             "ecv": "C",
             "url": "https://studieinfo.liu.se//en/kurs/TATA76/vt-2022",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "KTR1",
+                    "name": "Voluntary test",
+                    "scope": "0 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "KTR2",
+                    "name": "Voluntary test",
+                    "scope": "0 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "KTR3",
+                    "name": "Voluntary test",
+                    "scope": "0 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 4 Spring 2022"
             ],
@@ -488,7 +756,26 @@
             "tt_module": "3",
             "ecv": "C",
             "url": "https://studieinfo.liu.se//en/kurs/TDDB68/vt-2022",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG1",
+                    "name": "Voluntary lab assignment",
+                    "scope": "0 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory Work",
+                    "scope": "3 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 4 Spring 2022"
             ],
@@ -507,7 +794,20 @@
             "tt_module": "2",
             "ecv": "C",
             "url": "https://studieinfo.liu.se//en/kurs/TSEA83/vt-2022",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "PRA1",
+                    "name": "Project assignment",
+                    "scope": "6 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 4 Spring 2022",
                 "Semester 4 Spring 2022"
@@ -529,7 +829,20 @@
             "tt_module": "2",
             "ecv": "C",
             "url": "https://studieinfo.liu.se//en/kurs/TAMS42/vt-2022",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG1",
+                    "name": "Computer exercises",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 4 Spring 2022"
             ],
@@ -548,7 +861,32 @@
             "tt_module": "1",
             "ecv": "C",
             "url": "https://studieinfo.liu.se//en/kurs/TFYA86/vt-2022",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB3",
+                    "name": "Laboratory work",
+                    "scope": "0.5 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "KTR1",
+                    "name": "Optional examination",
+                    "scope": "0 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "LAB2",
+                    "name": "Laboratory work",
+                    "scope": "0.5 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 4 Spring 2022"
             ],
@@ -567,7 +905,20 @@
             "tt_module": "2",
             "ecv": "C",
             "url": "https://studieinfo.liu.se//en/kurs/TAOP33/ht-2022",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB2",
+                    "name": "Laboratory work",
+                    "scope": "1 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN2",
+                    "name": "Written examination",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 5 Autumn 2022"
             ],
@@ -586,7 +937,20 @@
             "tt_module": "1",
             "ecv": "C",
             "url": "https://studieinfo.liu.se//en/kurs/TDDC93/ht-2022",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "DIT1",
+                    "name": "Digital examination",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "UPG2",
+                    "name": "Voluntary hand-in assignment",
+                    "scope": "0 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 5 Autumn 2022"
             ],
@@ -605,7 +969,14 @@
             "tt_module": "-",
             "ecv": "C",
             "url": "https://studieinfo.liu.se//en/kurs/TDDD91/ht-2022",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG1",
+                    "name": "Assignment",
+                    "scope": "1 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 5 Autumn 2022",
                 "Semester 5 Autumn 2022"
@@ -627,7 +998,26 @@
             "tt_module": "4",
             "ecv": "C",
             "url": "https://studieinfo.liu.se//en/kurs/TSDT84/ht-2022",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "KTR1",
+                    "name": "Written test",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "1 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN3",
+                    "name": "Written examination",
+                    "scope": "5 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 5 Autumn 2022",
                 "Semester 5 Autumn 2022"
@@ -649,7 +1039,14 @@
             "tt_module": "3",
             "ecv": "C",
             "url": "https://studieinfo.liu.se//en/kurs/TSEA29/ht-2022",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "PRA1",
+                    "name": "Project, written and oral presentation",
+                    "scope": "8 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 5 Autumn 2022",
                 "Semester 5 Autumn 2022"
@@ -671,7 +1068,14 @@
             "tt_module": "-",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSRT04/ht-2022",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Computer exercise",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 5 Autumn 2022"
             ],
@@ -690,7 +1094,14 @@
             "tt_module": "2",
             "ecv": "C",
             "url": "https://studieinfo.liu.se//en/kurs/TDDD88/ht-2022",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "DIT1",
+                    "name": "Digital examination",
+                    "scope": "5 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 5 Autumn 2022"
             ],
@@ -709,7 +1120,20 @@
             "tt_module": "4",
             "ecv": "C",
             "url": "https://studieinfo.liu.se//en/kurs/TDDD60/vt-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG2",
+                    "name": "Assignment",
+                    "scope": "2.5 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "UPG1",
+                    "name": "Assignment",
+                    "scope": "1.5 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 6 Spring 2023"
             ],
@@ -728,7 +1152,20 @@
             "tt_module": "2/3",
             "ecv": "C",
             "url": "https://studieinfo.liu.se//en/kurs/TDDD96/vt-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG2",
+                    "name": "Opposition",
+                    "scope": "1 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "UPG1",
+                    "name": "Project",
+                    "scope": "14 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 6 Spring 2023",
                 "Semester 6 Spring 2023"
@@ -750,7 +1187,20 @@
             "tt_module": "1",
             "ecv": "C",
             "url": "https://studieinfo.liu.se//en/kurs/TSRT12/vt-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory Work",
+                    "scope": "1.5 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written Examination",
+                    "scope": "4.5 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 6 Spring 2023"
             ],
@@ -769,7 +1219,20 @@
             "tt_module": "3",
             "ecv": "C",
             "url": "https://studieinfo.liu.se//en/kurs/TSKS10/vt-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Computer based laboratory work",
+                    "scope": "1 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 6 Spring 2023"
             ],
@@ -788,7 +1251,14 @@
             "tt_module": "-",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TPTE06/vt-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG1",
+                    "name": "Assignment",
+                    "scope": "6 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 6 Spring 2023"
             ],
@@ -807,7 +1277,20 @@
             "tt_module": "3",
             "ecv": "C/E",
             "url": "https://studieinfo.liu.se//en/kurs/TANA21/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 9 Autumn 2024"
@@ -829,7 +1312,14 @@
             "tt_module": "1",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TAMS32/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "TEN1",
+                    "name": "Written Examination",
+                    "scope": "6 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023"
             ],
@@ -848,7 +1338,20 @@
             "tt_module": "4",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TAMS43/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Compulsory Assignment",
+                    "scope": "1 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written Examination",
+                    "scope": "5 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023"
@@ -870,7 +1373,14 @@
             "tt_module": "3",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TATA55/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG2",
+                    "name": "Assignments",
+                    "scope": "6 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023"
@@ -892,7 +1402,26 @@
             "tt_module": "3",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TBME04/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG1",
+                    "name": "Seminars",
+                    "scope": "0.5 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory Work",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "DIT1",
+                    "name": "Digital Examination",
+                    "scope": "3.5 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023"
@@ -914,7 +1443,26 @@
             "tt_module": "2",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TBMI19/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory Work",
+                    "scope": "1.5 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "BAS1",
+                    "name": "Seminars",
+                    "scope": "1 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "HEM1",
+                    "name": "Essay assignements",
+                    "scope": "3.5 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023",
@@ -948,7 +1496,20 @@
             "tt_module": "3",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDC17/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB2",
+                    "name": "Laboratory Work",
+                    "scope": "3 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "DIT1",
+                    "name": "Digital examination",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023",
@@ -985,7 +1546,14 @@
             "tt_module": "2",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDD04/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB2",
+                    "name": "Laboratory work",
+                    "scope": "6 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023",
@@ -1019,7 +1587,20 @@
             "tt_module": "4",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDD08/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023",
@@ -1044,7 +1625,14 @@
             "tt_module": "2",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDD23/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "PRA2",
+                    "name": "Project work",
+                    "scope": "6 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023",
@@ -1069,7 +1657,14 @@
             "tt_module": "2",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDD38/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "DAT2",
+                    "name": "Computer examination",
+                    "scope": "6 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023",
@@ -1133,7 +1728,20 @@
             "tt_module": "1",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDD53/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG2",
+                    "name": "Translation is not available",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "UPG1",
+                    "name": "Group Assignment",
+                    "scope": "3 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023",
@@ -1164,7 +1772,26 @@
             "tt_module": "4",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDE45/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "DAT1",
+                    "name": "Computer-based exam",
+                    "scope": "2 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "3 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "UPG1",
+                    "name": "Assignment",
+                    "scope": "1 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023",
@@ -1198,7 +1825,20 @@
             "tt_module": "1",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDP024/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG1",
+                    "name": "Seminar",
+                    "scope": "1 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "LAB2",
+                    "name": "Laboratory work",
+                    "scope": "5 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023"
             ],
@@ -1217,7 +1857,26 @@
             "tt_module": "1",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDTS06/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG1",
+                    "name": "Voluntary assignment",
+                    "scope": "0 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "3 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023",
@@ -1254,7 +1913,20 @@
             "tt_module": "2",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDTS08/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023",
@@ -1279,7 +1951,26 @@
             "tt_module": "2",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TEAE01/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Computer laboratory work",
+                    "scope": "1 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "PRA1",
+                    "name": "Project work",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023",
@@ -1307,7 +1998,32 @@
             "tt_module": "3",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TEIO32/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "KTR2",
+                    "name": "Written test",
+                    "scope": "1.5 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "KTR1",
+                    "name": "Written test",
+                    "scope": "1.5 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "UPG8",
+                    "name": "Group assignment project management",
+                    "scope": "1.5 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "UPG9",
+                    "name": "Group assignment organization",
+                    "scope": "1.5 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023",
@@ -1335,7 +2051,20 @@
             "tt_module": "4",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TFEI71/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "3 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "UPG1",
+                    "name": "Continuous examination",
+                    "scope": "1 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023"
             ],
@@ -1354,7 +2083,20 @@
             "tt_module": "2",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TGTU91/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG2",
+                    "name": "Successful completion of written assignments",
+                    "scope": "3 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "UPG1",
+                    "name": "Successful completion of oral assignments",
+                    "scope": "3 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023"
             ],
@@ -1373,7 +2115,20 @@
             "tt_module": "4",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/THEN18/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "MUN2",
+                    "name": "Oral examination and assignments",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023",
@@ -1401,7 +2156,26 @@
             "tt_module": "4",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/THFR27/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "MUN1",
+                    "name": "Oral presentation with written notes",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "KTR1",
+                    "name": "Three preparatory written examinations",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "ANN1",
+                    "name": "Written assignments and active attendance in discussions",
+                    "scope": "1 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023",
@@ -1429,7 +2203,26 @@
             "tt_module": "4",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/THSP27/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "MUN1",
+                    "name": "Oral presentation with written notes",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "KTR1",
+                    "name": "Three preparatory written examinations",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "ANN1",
+                    "name": "Written assignments and active attendance in discussions",
+                    "scope": "1 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023",
@@ -1457,7 +2250,26 @@
             "tt_module": "4",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/THTY27/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "MUN1",
+                    "name": "Oral presentation with written notes",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "KTR1",
+                    "name": "Three preparatory written examinations",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "ANN1",
+                    "name": "Written assignments and active attendance in discussions",
+                    "scope": "1 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023",
@@ -1485,7 +2297,26 @@
             "tt_module": "2",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSBB06/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "KTR1",
+                    "name": "Optional Written Test",
+                    "scope": "0 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory Work",
+                    "scope": "3 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN2",
+                    "name": "Written Examination",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023",
@@ -1519,7 +2350,20 @@
             "tt_module": "4",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSBB08/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB2",
+                    "name": "Laboratory Work",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written Examination",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023",
@@ -1547,7 +2391,20 @@
             "tt_module": "1",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSDT14/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory Work",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written Examination",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023",
@@ -1572,7 +2429,32 @@
             "tt_module": "4",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSFS09/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG3",
+                    "name": "Project assignment",
+                    "scope": "1 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "UPG2",
+                    "name": "Project assignment",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "UPG1",
+                    "name": "Project assignment",
+                    "scope": "3 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Optional written examination for higher grades",
+                    "scope": "0 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023"
@@ -1594,7 +2476,26 @@
             "tt_module": "1",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSFS12/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG2",
+                    "name": "Hand in exercise for higher grade",
+                    "scope": "0 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "PROJ",
+                    "name": "Project",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "UPG1",
+                    "name": "Hand in exercises",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023",
@@ -1622,7 +2523,20 @@
             "tt_module": "4",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSKS01/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "1 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "5 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023",
@@ -1662,7 +2576,20 @@
             "tt_module": "2",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSKS15/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023",
@@ -1687,7 +2614,20 @@
             "tt_module": "3",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSRT92/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "DAT1",
+                    "name": "Computer Examination",
+                    "scope": "4.5 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory Work",
+                    "scope": "1.5 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 9 Autumn 2024"
@@ -1709,7 +2649,20 @@
             "tt_module": "3",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSTE12/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory Work",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "PRA1",
+                    "name": "Project",
+                    "scope": "4 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023",
@@ -1734,7 +2687,20 @@
             "tt_module": "2",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSTE86/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory Work",
+                    "scope": "1.5 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written Examination",
+                    "scope": "4.5 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023",
@@ -1762,7 +2728,20 @@
             "tt_module": "1",
             "ecv": "C/E",
             "url": "https://studieinfo.liu.se//en/kurs/TANA09/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Computer assignments, compulsory attendance at sessions",
+                    "scope": "1.5 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "2.5 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 9 Autumn 2024"
@@ -1784,7 +2763,20 @@
             "tt_module": "2",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TAOP61/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "PRA1",
+                    "name": "Project work",
+                    "scope": "3 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023"
             ],
@@ -1803,7 +2795,26 @@
             "tt_module": "2",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TBME03/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "1 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "UPG1",
+                    "name": "Handing in task",
+                    "scope": "1 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023"
@@ -1825,7 +2836,20 @@
             "tt_module": "2/4",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TBMI04/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "BAS1",
+                    "name": "Tutorial groups and seminars",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "UPG1",
+                    "name": "Written group report and individual reflection report",
+                    "scope": "4 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023"
@@ -1847,7 +2871,20 @@
             "tt_module": "4",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDC34/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG4",
+                    "name": "Project in group",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "UPG5",
+                    "name": "Individual hand-in assignments",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023",
@@ -1875,7 +2912,14 @@
             "tt_module": "1",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDC73/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "PRA1",
+                    "name": "Project",
+                    "scope": "6 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023"
@@ -1897,7 +2941,20 @@
             "tt_module": "4",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDD07/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023",
@@ -1931,7 +2988,20 @@
             "tt_module": "1",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDD37/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "3 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023",
@@ -1962,7 +3032,14 @@
             "tt_module": "3",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDD49/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Labs",
+                    "scope": "4 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023"
             ],
@@ -1981,7 +3058,20 @@
             "tt_module": "1",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDD55/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "2 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023"
@@ -2003,7 +3093,20 @@
             "tt_module": "2",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDD56/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "3 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 9 Autumn 2024",
@@ -2037,7 +3140,20 @@
             "tt_module": "1",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDE01/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB2",
+                    "name": "Laboratory work",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "DAT2",
+                    "name": "Computer examination",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023",
@@ -2071,7 +3187,14 @@
             "tt_module": "2",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDE02/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG1",
+                    "name": "Project work",
+                    "scope": "6 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023",
@@ -2102,7 +3225,26 @@
             "tt_module": "2",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDEI19/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG2",
+                    "name": "Case Seminars",
+                    "scope": "1 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "UPG1",
+                    "name": "Assignment",
+                    "scope": "2 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "KTR1",
+                    "name": "Written examination",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023",
@@ -2127,7 +3269,20 @@
             "tt_module": "4",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TEIM13/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "KTR1",
+                    "name": "Written test",
+                    "scope": "1 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "PRA1",
+                    "name": "Project work",
+                    "scope": "5 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023",
@@ -2152,7 +3307,26 @@
             "tt_module": "2",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TGTU04/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPGA",
+                    "name": "Oral and written presentation of assignment",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "MUN3",
+                    "name": "Oral examination",
+                    "scope": "2.5 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "UPGB",
+                    "name": "Individual plan and participation in exercises",
+                    "scope": "1.5 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023"
             ],
@@ -2171,7 +3345,20 @@
             "tt_module": "1",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TGTU49/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG1",
+                    "name": "Seminars",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "HEM2",
+                    "name": "Hand-in examination",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 9 Autumn 2024"
@@ -2193,7 +3380,20 @@
             "tt_module": "1",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TKMJ24/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG3",
+                    "name": "Project work",
+                    "scope": "3 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN2",
+                    "name": "Written examination",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023"
             ],
@@ -2212,7 +3412,20 @@
             "tt_module": "3",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TMKA11/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "PRA2",
+                    "name": "Project work",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "UPG1",
+                    "name": "Hand-in assignments",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023"
             ],
@@ -2231,7 +3444,20 @@
             "tt_module": "4",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSBB21/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "3 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN2",
+                    "name": "Written examination",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023"
@@ -2253,7 +3479,20 @@
             "tt_module": "3",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSEK02/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory Work",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written Examination",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023"
@@ -2275,7 +3514,26 @@
             "tt_module": "1",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSEK37/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "LAB2",
+                    "name": "Laboratory work",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "KTR1",
+                    "name": "Optional Assignment",
+                    "scope": "0 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023",
@@ -2300,7 +3558,20 @@
             "tt_module": "1",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSFS02/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023"
             ],
@@ -2319,7 +3590,20 @@
             "tt_module": "1",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSIN02/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG1",
+                    "name": "Hand-in assignments",
+                    "scope": "1.5 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination.",
+                    "scope": "4.5 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023",
@@ -2350,7 +3634,20 @@
             "tt_module": "2",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSIT02/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "1 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "5 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023",
@@ -2390,7 +3687,20 @@
             "tt_module": "3",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSKS33/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023",
@@ -2421,7 +3731,20 @@
             "tt_module": "3",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSRT08/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG1",
+                    "name": "Hand-in assignments",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023"
@@ -2443,7 +3766,26 @@
             "tt_module": "2",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSRT78/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory Work",
+                    "scope": "1 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "DAT1",
+                    "name": "Written/Computer Examination",
+                    "scope": "5 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "KTR1",
+                    "name": "Optional Homework Assignments",
+                    "scope": "0 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023"
@@ -2465,7 +3807,20 @@
             "tt_module": "2",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSEA26/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory assignments",
+                    "scope": "3 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023",
@@ -2502,7 +3857,20 @@
             "tt_module": "2",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSIT03/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN2",
+                    "name": "Written examination",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023",
                 "Semester 7 Autumn 2023",
@@ -2533,7 +3901,20 @@
             "tt_module": "1",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDB44/ht-2023",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory Work",
+                    "scope": "3 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 7 Autumn 2023"
             ],
@@ -2552,7 +3933,20 @@
             "tt_module": "1",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TANA15/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024"
             ],
@@ -2571,7 +3965,14 @@
             "tt_module": "2",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TATA53/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG1",
+                    "name": "Hand-in exercises",
+                    "scope": "6 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024"
@@ -2593,7 +3994,14 @@
             "tt_module": "3",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TATA54/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "TEN1",
+                    "name": "Written Examination",
+                    "scope": "6 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024"
@@ -2615,7 +4023,14 @@
             "tt_module": "2",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TATA64/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG1",
+                    "name": "Hand-in assignment",
+                    "scope": "6 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024",
@@ -2643,7 +4058,20 @@
             "tt_module": "2",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TBMI26/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory Work",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written Examination",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024",
@@ -2677,7 +4105,20 @@
             "tt_module": "4",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TBMI31/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory Work",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024"
@@ -2699,7 +4140,26 @@
             "tt_module": "3",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TBMT02/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "BAS1",
+                    "name": "Work in PBL-group",
+                    "scope": "1 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory Work",
+                    "scope": "1.5 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "UPG1",
+                    "name": "Home assignment",
+                    "scope": "3.5 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024"
@@ -2721,7 +4181,20 @@
             "tt_module": "1",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TBMT09/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory Work",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written Examination",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024"
             ],
@@ -2740,7 +4213,20 @@
             "tt_module": "3",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TBMT32/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG2",
+                    "name": "Essay",
+                    "scope": "1 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "UPG3",
+                    "name": "Active participation during at least 6 lectures and a studyvisit",
+                    "scope": "1 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024"
@@ -2762,7 +4248,14 @@
             "tt_module": "3",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDD20/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "6 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024",
@@ -2787,7 +4280,20 @@
             "tt_module": "2",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDD25/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024"
@@ -2809,7 +4315,20 @@
             "tt_module": "3",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDD41/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024",
@@ -2834,7 +4353,20 @@
             "tt_module": "4",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDD50/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG3",
+                    "name": "Active participation in seminars, and written report",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "UPG2",
+                    "name": "Oral Presentation and Seminar Leadership",
+                    "scope": "1 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024"
             ],
@@ -2853,7 +4385,20 @@
             "tt_module": "1",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDD57/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "PRA1",
+                    "name": "Project work",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "3 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024"
@@ -2875,7 +4420,20 @@
             "tt_module": "1",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDD95/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG1",
+                    "name": "Assignments",
+                    "scope": "2 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024",
@@ -2909,7 +4467,14 @@
             "tt_module": "3",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDD97/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Project and laboratory work",
+                    "scope": "6 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024",
@@ -2934,7 +4499,20 @@
             "tt_module": "4",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDE05/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "PRA1",
+                    "name": "Project assignment",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024",
@@ -2968,7 +4546,20 @@
             "tt_module": "2",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDE09/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB2",
+                    "name": "Practical assignments",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "UPG2",
+                    "name": "Project assignments",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024",
@@ -2996,7 +4587,20 @@
             "tt_module": "2",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDE46/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "PRA1",
+                    "name": "Project",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "LAB1",
+                    "name": "Computer lab assignments",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024",
@@ -3030,7 +4634,26 @@
             "tt_module": "-",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDE50/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "PRA1",
+                    "name": "Project assignment",
+                    "scope": "3 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "UPG1",
+                    "name": "Reflection report",
+                    "scope": "1 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "UPG2",
+                    "name": "Systems analysis",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024"
@@ -3052,7 +4675,20 @@
             "tt_module": "4",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDE51/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Computer assignments",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "UPG1",
+                    "name": "Hand-in assignments",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024",
@@ -3080,7 +4716,20 @@
             "tt_module": "3",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDE55/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory Work",
+                    "scope": "4.5 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "DIT1",
+                    "name": "Digital examination",
+                    "scope": "1.5 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024",
@@ -3114,7 +4763,32 @@
             "tt_module": "1",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDE61/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "DAT1",
+                    "name": "Computer examination",
+                    "scope": "0.5 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "UPG1",
+                    "name": "Seminar",
+                    "scope": "0.5 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "LAB1",
+                    "name": "Computer labs",
+                    "scope": "4.5 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "UPG2",
+                    "name": "Online quiz",
+                    "scope": "0.5 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024",
@@ -3142,7 +4816,20 @@
             "tt_module": "4",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDE62/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work and written assignments",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024",
@@ -3167,7 +4854,20 @@
             "tt_module": "1",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDTS07/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "DIT1",
+                    "name": "Digital examination",
+                    "scope": "2.5 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "LAB2",
+                    "name": "Laboratory Work",
+                    "scope": "3.5 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024",
@@ -3192,7 +4892,20 @@
             "tt_module": "1",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDTS21/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "PRA1",
+                    "name": "Project assignment with oral presentation",
+                    "scope": "3.5 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "2.5 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024",
@@ -3226,7 +4939,20 @@
             "tt_module": "3",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TEAE21/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "UPG1",
+                    "name": "Approved seminars",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024"
@@ -3248,7 +4974,14 @@
             "tt_module": "1",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TEIE88/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024"
             ],
@@ -3267,7 +5000,26 @@
             "tt_module": "4",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TEIO13/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "MUN1",
+                    "name": "Oral examination",
+                    "scope": "2.5 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "UPG4",
+                    "name": "Written assignment and participation",
+                    "scope": "1.5 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "UPG3",
+                    "name": "Project assignment",
+                    "scope": "2 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024"
@@ -3289,7 +5041,26 @@
             "tt_module": "4",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TEIO94/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG2",
+                    "name": "Project group assignment",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "UPG1",
+                    "name": "Reflection assignment individual/in pairs",
+                    "scope": "0.5 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "TEN2",
+                    "name": "Written examination",
+                    "scope": "2.5 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024"
@@ -3311,7 +5082,20 @@
             "tt_module": "4",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TEIO95/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "PRA1",
+                    "name": "Project",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "BAS1",
+                    "name": "Tutorial groups",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024",
@@ -3339,7 +5123,20 @@
             "tt_module": "1",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TGTU94/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG1",
+                    "name": "Written assignment, seminar",
+                    "scope": "1.5 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "HEM1",
+                    "name": "Take-home examination",
+                    "scope": "4.5 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024"
             ],
@@ -3358,7 +5155,26 @@
             "tt_module": "-",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TINT02/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "PRA1",
+                    "name": "Project with oral presentation and opposition",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "UPG1",
+                    "name": "Individual written analysis and group discussion",
+                    "scope": "2 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "UPG2",
+                    "name": "Hand-in assignments and active participation in seminars",
+                    "scope": "1 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024"
@@ -3380,7 +5196,20 @@
             "tt_module": "3",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TKMJ15/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG1",
+                    "name": "Assignments",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "DIT1",
+                    "name": "Digital examination",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024"
             ],
@@ -3399,7 +5228,20 @@
             "tt_module": "3",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TNM111/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG1",
+                    "name": "Assignments with oral and written presentations",
+                    "scope": "3 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "MUN1",
+                    "name": "Oral examination",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024"
@@ -3421,7 +5263,20 @@
             "tt_module": "1",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSBB34/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "PRA2",
+                    "name": "Project Work",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory Work",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024",
@@ -3446,7 +5301,26 @@
             "tt_module": "4",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSBK07/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "PRA1",
+                    "name": "Project, oral and written examination",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "2 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024",
@@ -3486,7 +5360,20 @@
             "tt_module": "2",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSBK08/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB2",
+                    "name": "Small computer project",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "A written exam",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024",
@@ -3511,7 +5398,26 @@
             "tt_module": "4",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSEK06/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG1",
+                    "name": "Entrepreneurship Assignments",
+                    "scope": "3 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory Work",
+                    "scope": "1.5 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "PRA1",
+                    "name": "Project Work",
+                    "scope": "7.5 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024",
@@ -3545,7 +5451,20 @@
             "tt_module": "2",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSEK38/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "PRA1",
+                    "name": "Project Work",
+                    "scope": "4 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024"
@@ -3567,7 +5486,20 @@
             "tt_module": "4",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSKS13/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024"
@@ -3589,7 +5521,20 @@
             "tt_module": "2",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSRT07/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "DAT1",
+                    "name": "Computer examination",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024",
@@ -3614,7 +5559,20 @@
             "tt_module": "3",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSRT09/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "1.5 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "DAT1",
+                    "name": "Written examination",
+                    "scope": "4.5 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024"
@@ -3636,7 +5594,20 @@
             "tt_module": "2",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSTE14/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024"
@@ -3658,7 +5629,14 @@
             "tt_module": "3",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSTE27/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "PRA1",
+                    "name": "Project assignment",
+                    "scope": "6 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024",
@@ -3683,7 +5661,14 @@
             "tt_module": "3",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TAOP87/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "PRA1",
+                    "name": "Depends on the project",
+                    "scope": "6 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024"
             ],
@@ -3702,7 +5687,26 @@
             "tt_module": "1",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TBMT26/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "DIT1",
+                    "name": "Written examination",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "LAB2",
+                    "name": "Laboratory work",
+                    "scope": "1 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "UPG2",
+                    "name": "Project assignment",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024"
@@ -3724,7 +5728,20 @@
             "tt_module": "2",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDD14/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG1",
+                    "name": "Assignments",
+                    "scope": "1 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "5 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024",
@@ -3749,7 +5766,14 @@
             "tt_module": "3",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDD27/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "PRA1",
+                    "name": "Seminars and project",
+                    "scope": "6 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024",
@@ -3774,7 +5798,20 @@
             "tt_module": "1",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDD48/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "DIT1",
+                    "name": "Digital examination",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "LAB2",
+                    "name": "Laboratory work",
+                    "scope": "3 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024"
@@ -3796,7 +5833,20 @@
             "tt_module": "2",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDE07/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Computer assignments",
+                    "scope": "1 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "DAT2",
+                    "name": "Computer examination",
+                    "scope": "5 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024"
@@ -3818,7 +5868,20 @@
             "tt_module": "3",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDE31/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Labs",
+                    "scope": "3 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written exam",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024",
@@ -3843,7 +5906,20 @@
             "tt_module": "1",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDE34/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "3 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024",
@@ -3874,7 +5950,20 @@
             "tt_module": "1",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDE41/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG1",
+                    "name": "Written assignment",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "PRA1",
+                    "name": "Project assignment",
+                    "scope": "3 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024",
@@ -3899,7 +5988,20 @@
             "tt_module": "3",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDE64/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "MUN1",
+                    "name": "Oral presentation of research paper",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "PRA1",
+                    "name": "Project work",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024"
@@ -3921,7 +6023,20 @@
             "tt_module": "2",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDE65/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "3 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024",
@@ -3946,7 +6061,26 @@
             "tt_module": "1",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDE70/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Computer Based Laboratory Assignmnets",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "DIT1",
+                    "name": "Digital Examination",
+                    "scope": "2 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "UPG1",
+                    "name": "Project Work",
+                    "scope": "2 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024"
@@ -3968,7 +6102,14 @@
             "tt_module": "2",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TEAE13/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "TEN1",
+                    "name": "Written exam",
+                    "scope": "6 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024"
             ],
@@ -3987,7 +6128,20 @@
             "tt_module": "1",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TEAE20/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG1",
+                    "name": "Mandatory seminars and written assignments",
+                    "scope": "1 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "5 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024"
@@ -4009,7 +6163,20 @@
             "tt_module": "4",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TEIG01/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG1",
+                    "name": "Group seminars and assignments",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024"
@@ -4031,7 +6198,20 @@
             "tt_module": "2",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TEIO06/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG2",
+                    "name": "Project work",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "UPG1",
+                    "name": "Individual assignments",
+                    "scope": "2 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024"
@@ -4053,7 +6233,20 @@
             "tt_module": "4",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TGTU84/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "MOM1",
+                    "name": "Seminars",
+                    "scope": "1 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "UPG1",
+                    "name": "Hand-in assignments",
+                    "scope": "5 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024"
             ],
@@ -4072,7 +6265,20 @@
             "tt_module": "4",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TGTU95/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG1",
+                    "name": "Compulsory Seminars",
+                    "scope": "1 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "HEM1",
+                    "name": "Hand-in Examination",
+                    "scope": "5 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024"
             ],
@@ -4091,7 +6297,20 @@
             "tt_module": "2",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TNM079/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB4",
+                    "name": "Laboratory work",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "TEN3",
+                    "name": "Written examination",
+                    "scope": "2 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024"
@@ -4113,7 +6332,26 @@
             "tt_module": "3",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSBB33/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "TEN1",
+                    "name": "Written Examination",
+                    "scope": "2 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "PRA1",
+                    "name": "Project Work",
+                    "scope": "3 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory Work",
+                    "scope": "1 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024",
@@ -4138,7 +6376,20 @@
             "tt_module": "4",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSBK38/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "TEN1",
+                    "name": "Written exam",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024",
@@ -4163,7 +6414,20 @@
             "tt_module": "1",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSFS06/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory Work",
+                    "scope": "1.5 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written Examination",
+                    "scope": "4.5 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024",
@@ -4188,7 +6452,20 @@
             "tt_module": "3",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSIT11/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "4.5 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "1.5 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024"
             ],
@@ -4207,7 +6484,20 @@
             "tt_module": "3",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSKS14/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "1 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "5 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024"
@@ -4229,7 +6519,14 @@
             "tt_module": "1",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSKS16/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "6 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024",
@@ -4257,7 +6554,20 @@
             "tt_module": "3",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSRT14/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG1",
+                    "name": "Laboratory work",
+                    "scope": "3 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "DAT1",
+                    "name": "Computer examination",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024",
@@ -4285,7 +6595,20 @@
             "tt_module": "3",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSTE06/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "1.5 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "4.5 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024",
@@ -4310,7 +6633,32 @@
             "tt_module": "2",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSTE87/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory Work",
+                    "scope": "1.5 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written Examination",
+                    "scope": "4.5 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "MUN1",
+                    "name": "Optional Oral Examination",
+                    "scope": "0 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "MUN2",
+                    "name": "Optional Oral Examination",
+                    "scope": "0 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024",
@@ -4335,7 +6683,14 @@
             "tt_module": "1",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSTE93/vt-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "PRA1",
+                    "name": "Project work and laboratory work",
+                    "scope": "6 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 8 Spring 2024",
                 "Semester 8 Spring 2024"
@@ -4357,7 +6712,20 @@
             "tt_module": "4",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TAMS39/ht-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG1",
+                    "name": "Laboratory work and hand in assignments/project",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "MUN1",
+                    "name": "Oral examination",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 9 Autumn 2024"
             ],
@@ -4376,7 +6744,14 @@
             "tt_module": "4",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TBMI28/ht-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "PRA1",
+                    "name": "Project work",
+                    "scope": "12 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 9 Autumn 2024",
                 "Semester 9 Autumn 2024",
@@ -4404,7 +6779,20 @@
             "tt_module": "2",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDD43/ht-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "3 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 9 Autumn 2024",
                 "Semester 9 Autumn 2024",
@@ -4444,7 +6832,20 @@
             "tt_module": "1",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDE15/ht-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Computer-based laboratory exercises",
+                    "scope": "1 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "DAT2",
+                    "name": "Computer examination",
+                    "scope": "5 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 9 Autumn 2024",
                 "Semester 9 Autumn 2024"
@@ -4466,7 +6867,14 @@
             "tt_module": "4",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDE19/ht-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "PRA1",
+                    "name": "Project",
+                    "scope": "6 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 9 Autumn 2024",
                 "Semester 9 Autumn 2024",
@@ -4494,7 +6902,14 @@
             "tt_module": "4",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDE20/ht-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "PRA1",
+                    "name": "Project",
+                    "scope": "6 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 9 Autumn 2024",
                 "Semester 9 Autumn 2024",
@@ -4522,7 +6937,14 @@
             "tt_module": "4",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDE21/ht-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "PRA1",
+                    "name": "Project",
+                    "scope": "6 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 9 Autumn 2024",
                 "Semester 9 Autumn 2024",
@@ -4550,7 +6972,14 @@
             "tt_module": "4",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDE52/ht-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "PRA1",
+                    "name": "Project",
+                    "scope": "6 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 9 Autumn 2024",
                 "Semester 9 Autumn 2024",
@@ -4584,7 +7013,26 @@
             "tt_module": "2",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDE58/ht-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "1 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "UPG1",
+                    "name": "Project work",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 9 Autumn 2024"
             ],
@@ -4603,7 +7051,14 @@
             "tt_module": "4",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDE63/ht-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "PRA1",
+                    "name": "Project",
+                    "scope": "6 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 9 Autumn 2024",
                 "Semester 9 Autumn 2024",
@@ -4631,7 +7086,20 @@
             "tt_module": "3",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TEIM11/ht-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "PRA1",
+                    "name": "Project work",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "DIT1",
+                    "name": "Digital examination",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 9 Autumn 2024",
                 "Semester 9 Autumn 2024"
@@ -4653,7 +7121,20 @@
             "tt_module": "2",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TEIO90/ht-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG3",
+                    "name": "Individual written assignments",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "UPG6",
+                    "name": "Group assignments",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 9 Autumn 2024",
                 "Semester 9 Autumn 2024"
@@ -4675,7 +7156,14 @@
             "tt_module": "4",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TNCG15/ht-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG1",
+                    "name": "Project work with oral and written presentation",
+                    "scope": "6 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 9 Autumn 2024",
                 "Semester 9 Autumn 2024"
@@ -4697,7 +7185,20 @@
             "tt_module": "3",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TNM067/ht-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "MUN1",
+                    "name": "Oral examination",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "3 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 9 Autumn 2024",
                 "Semester 9 Autumn 2024"
@@ -4719,7 +7220,14 @@
             "tt_module": "2",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TNM114/ht-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "PRA1",
+                    "name": "Project work",
+                    "scope": "6 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 9 Autumn 2024"
             ],
@@ -4738,7 +7246,20 @@
             "tt_module": "4",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSBB11/ht-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG1",
+                    "name": "Entrepreneurship assignments",
+                    "scope": "3 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "PRA1",
+                    "name": "Project work",
+                    "scope": "9 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 9 Autumn 2024",
                 "Semester 9 Autumn 2024",
@@ -4772,7 +7293,20 @@
             "tt_module": "2",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSBB19/ht-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "PRA1",
+                    "name": "Project with oral and written presentation",
+                    "scope": "3 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examiation",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 9 Autumn 2024",
                 "Semester 9 Autumn 2024",
@@ -4800,7 +7334,20 @@
             "tt_module": "1",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSBK03/ht-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "PRA1",
+                    "name": "Project",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work with tests",
+                    "scope": "3 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 9 Autumn 2024",
                 "Semester 9 Autumn 2024",
@@ -4834,7 +7381,14 @@
             "tt_module": "1",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSEA84/ht-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "PRA1",
+                    "name": "Project work",
+                    "scope": "6 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 9 Autumn 2024",
                 "Semester 9 Autumn 2024",
@@ -4868,7 +7422,20 @@
             "tt_module": "2",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSEK03/ht-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory Work",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written Examination",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 9 Autumn 2024",
                 "Semester 9 Autumn 2024"
@@ -4890,7 +7457,20 @@
             "tt_module": "3",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSIN01/ht-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB2",
+                    "name": "Assignment report",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN2",
+                    "name": "Written examination",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 9 Autumn 2024",
                 "Semester 9 Autumn 2024"
@@ -4912,7 +7492,20 @@
             "tt_module": "3",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSIT14/ht-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "4 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "2 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 9 Autumn 2024",
                 "Semester 9 Autumn 2024"
@@ -4934,7 +7527,20 @@
             "tt_module": "1",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSKS12/ht-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 9 Autumn 2024",
                 "Semester 9 Autumn 2024"
@@ -4956,7 +7562,20 @@
             "tt_module": "4",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSKS23/ht-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG1",
+                    "name": "Entrepreneurship assignments",
+                    "scope": "3 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "PRA1",
+                    "name": "Project work",
+                    "scope": "9 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 9 Autumn 2024",
                 "Semester 9 Autumn 2024",
@@ -4984,7 +7603,20 @@
             "tt_module": "4",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSRT10/ht-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG1",
+                    "name": "Entrepreneurship assignments",
+                    "scope": "3 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "PRA1",
+                    "name": "Project work",
+                    "scope": "9 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 9 Autumn 2024",
                 "Semester 9 Autumn 2024",
@@ -5012,7 +7644,32 @@
             "tt_module": "4",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSTE17/ht-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG1",
+                    "name": "Entrepreneurship assignments",
+                    "scope": "3 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "UPG2",
+                    "name": "Assignments",
+                    "scope": "1 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "LAB1",
+                    "name": "One laboratory course",
+                    "scope": "1 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "PRA1",
+                    "name": "Project work",
+                    "scope": "7 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 9 Autumn 2024",
                 "Semester 9 Autumn 2024",
@@ -5046,7 +7703,20 @@
             "tt_module": "3",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSTE28/ht-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "TEN1",
+                    "name": "Written Examination",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "3 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 9 Autumn 2024",
                 "Semester 9 Autumn 2024"
@@ -5068,7 +7738,20 @@
             "tt_module": "3",
             "ecv": "C",
             "url": "https://studieinfo.liu.se//en/kurs/TDDD89/ht-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG2",
+                    "name": "Seminars",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "UPG1",
+                    "name": "Hand-in assignment",
+                    "scope": "4 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 9 Autumn 2024"
             ],
@@ -5087,7 +7770,20 @@
             "tt_module": "1",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TBMI02/ht-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory Work",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN2",
+                    "name": "Written Examination",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 9 Autumn 2024",
                 "Semester 9 Autumn 2024"
@@ -5109,7 +7805,20 @@
             "tt_module": "1",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDC90/ht-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG1",
+                    "name": "Laboratory work and assignments",
+                    "scope": "3 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 9 Autumn 2024",
                 "Semester 9 Autumn 2024",
@@ -5137,7 +7846,20 @@
             "tt_module": "1",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDE13/ht-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG1",
+                    "name": "Assignments",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 9 Autumn 2024",
                 "Semester 9 Autumn 2024"
@@ -5159,7 +7881,20 @@
             "tt_module": "2",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDE16/ht-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "PRA1",
+                    "name": "Project",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory exercises",
+                    "scope": "3 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 9 Autumn 2024",
                 "Semester 9 Autumn 2024"
@@ -5181,7 +7916,26 @@
             "tt_module": "1",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDE57/ht-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory work",
+                    "scope": "1 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "UPG1",
+                    "name": "Project work",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 9 Autumn 2024",
                 "Semester 9 Autumn 2024"
@@ -5203,7 +7957,20 @@
             "tt_module": "1",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TDDE66/ht-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory Work",
+                    "scope": "3 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "3 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 9 Autumn 2024",
                 "Semester 9 Autumn 2024",
@@ -5231,7 +7998,20 @@
             "tt_module": "2",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TNM116/ht-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "MUN1",
+                    "name": "Oral examination",
+                    "scope": "2 credits",
+                    "scale": "U, 3, 4, 5"
+                },
+                {
+                    "code": "LAB1",
+                    "name": "Laborations",
+                    "scope": "4 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 9 Autumn 2024",
                 "Semester 9 Autumn 2024"
@@ -5253,7 +8033,14 @@
             "tt_module": "1",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSEA44/ht-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "PRA1",
+                    "name": "Projects",
+                    "scope": "6 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 9 Autumn 2024",
                 "Semester 9 Autumn 2024",
@@ -5278,7 +8065,20 @@
             "tt_module": "1",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSEK07/ht-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "PRA1",
+                    "name": "Project work and oral presentation",
+                    "scope": "4 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory Work",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 9 Autumn 2024",
                 "Semester 9 Autumn 2024",
@@ -5303,7 +8103,20 @@
             "tt_module": "3",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSTE26/ht-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "LAB1",
+                    "name": "Laboratory Work",
+                    "scope": "2 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "DAT1",
+                    "name": "Computer examination",
+                    "scope": "4 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 9 Autumn 2024",
                 "Semester 9 Autumn 2024"
@@ -5325,7 +8138,20 @@
             "tt_module": "2",
             "ecv": "E",
             "url": "https://studieinfo.liu.se//en/kurs/TSTE85/ht-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "UPG1",
+                    "name": "Project",
+                    "scope": "1.5 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "TEN1",
+                    "name": "Written examination",
+                    "scope": "4.5 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 9 Autumn 2024",
                 "Semester 9 Autumn 2024",
@@ -5350,7 +8176,14 @@
             "tt_module": "1",
             "ecv": "C",
             "url": "https://studieinfo.liu.se//en/kurs/TDDD69/ht-2024",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "PRA1",
+                    "name": "Project work",
+                    "scope": "6 credits",
+                    "scale": "U, 3, 4, 5"
+                }
+            ],
             "semesters": [
                 "Semester 9 Autumn 2024",
                 "Semester 9 Autumn 2024"
@@ -5372,7 +8205,26 @@
             "tt_module": "-",
             "ecv": "C",
             "url": "https://studieinfo.liu.se//en/kurs/TQXX33",
-            "examinations": [],
+            "examinations": [
+                {
+                    "code": "AUSK",
+                    "name": "Attendance at three thesis presentations",
+                    "scope": "0.5 credits",
+                    "scale": "D"
+                },
+                {
+                    "code": "OPPO",
+                    "name": "Opposition",
+                    "scope": "1.5 credits",
+                    "scale": "U, G"
+                },
+                {
+                    "code": "UPG1",
+                    "name": "Planning report, midterm assessment, written report, oral presentation and reflection document",
+                    "scope": "28 credits",
+                    "scale": "U, G"
+                }
+            ],
             "semesters": [
                 "Semester 10 Spring 2025",
                 "Semester 10 Spring 2025"
