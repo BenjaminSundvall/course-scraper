@@ -1,3 +1,5 @@
+# %% Imports
+
 import requests
 from bs4 import BeautifulSoup
 from datetime import date
@@ -8,7 +10,6 @@ def get_examinations(url):
     page = requests.get(url)
     soup = BeautifulSoup(page.content, 'html.parser')
     status = page.status_code
-    print(f"Status: {status}")
 
     examinations = []
 
@@ -26,7 +27,7 @@ def get_examinations(url):
 
         examinations.append(examination)
 
-    return examinations
+    return examinations, status
 
 
 def it_courses(prd_soup):
@@ -40,6 +41,10 @@ def it_courses(prd_soup):
 
         href = crs_soup.select("a")[0].get("href")
         crs_url = "https://studieinfo.liu.se/" + href
+
+        # crs_examinations = []
+        # if get_exam:
+        #     crs_examinations = get_examinations(crs_url)
 
         crs = {"code" : crs_code,
                   "name" : crs_name,
@@ -86,23 +91,16 @@ def it_semesters(curr_soup):
         yield sem_soup, sem
 
 
-def get_curriculum(url, get_exam):
+def get_course_data(url, get_exam):
     # Load page from url
+    print(f"Reading course data from {url}")
     page = requests.get(url)
-    curr_soup = BeautifulSoup(page.content, 'html.parser')
     status = page.status_code
     print(f"Status: {status}")
 
+    courses = {}
 
-    # Create curriculum
-    today = date.today()
-
-    curriculum = {
-        "version" : 2,
-        "date" : today.strftime("%Y-%m-%d"),
-        "semesters" : []
-    }
-
+    curr_soup = BeautifulSoup(page.content, 'html.parser')
     for sem_soup, sem in it_semesters(curr_soup):
         for spec_soup, spec in it_specializations(sem_soup):
             for prd_soup, prd in it_periods(spec_soup):
@@ -110,13 +108,50 @@ def get_curriculum(url, get_exam):
                     if get_exam:
                         crs["examinations"] = get_examinations(crs["url"])
 
-                    prd['courses'].append(crs)
-                spec['periods'].append(prd)
-            sem['specializations'].append(spec)
-        curriculum['semesters'].append(sem)
 
-    print(f"Finished reading curriculum from {url}")
-    return curriculum
+                    crs_code = crs["code"]
+                    sem_title = sem["title"]
+                    spec_title = spec["title"]
+                    prd_title = prd["title"]
+
+                    if crs_code in courses:
+                        print(crs_code, "already added!")
+                        courses[crs_code]["semesters"].append(sem_title)
+                        courses[crs_code]["specializations"].append(spec_title)
+                        courses[crs_code]["periods"].append(prd_title)
+                    else:
+                        new_crs = {
+                            "code" : crs["code"],
+                            "name" : crs["name"],
+                            "credits" : crs["credits"],
+                            "level" : crs["level"],
+                            "tt_module" : crs["tt_module"],
+                            "ecv" : crs["ecv"],
+                            "url" : crs["url"],
+                            "examinations" : crs["examinations"],
+                            "semesters" : [sem_title],
+                            "specializations" : [spec_title],
+                            "periods" : [prd_title],
+                        }
+                        courses[crs_code] = new_crs
+
+        #             prd['courses'].append(crs)
+        #         spec['periods'].append(prd)
+        #     sem['specializations'].append(spec)
+        # curriculum['semesters'].append(sem)
+
+    print(f"Finished reading course data from {url}")
+
+    today = date.today()
+
+    course_data = {
+        "version" : 0,
+        "date" : today.strftime("%Y-%m-%d"),
+        "url" : url,
+        "courses" : courses
+    }
+
+    return course_data
 
 
 def save_to_json(data, save_file):
@@ -128,3 +163,10 @@ def load_from_json(save_file):
     with open(save_file, "r", encoding="utf8") as f:
         data = json.load(f)
     return data
+
+# %%
+
+course_data = get_course_data("https://studieinfo.liu.se/en/program/6CDDD/4617#curriculum", get_exam=False)
+save_to_json(course_data, "course_data_v0.json")
+
+# %%

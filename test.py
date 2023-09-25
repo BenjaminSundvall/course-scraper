@@ -18,3 +18,10 @@ all_courses = get_courses(curriculum, semesters=[7, 8, 9], specializations=["DAI
 save_to_json(all_courses, "my_course_list.json")
 
 # %%
+def foo(items):
+    for item in items:
+        yield item
+
+
+for i in foo([3, 6, 9]):
+    print(i)
