@@ -57,7 +57,9 @@ def it_courses(prd_soup):
 def it_periods(spec_soup):
     for prd_soup in spec_soup.select("tbody.period"):
         prd_title = prd_soup.select("th")[0].text.strip()
+        prd_number = int(prd_title.split()[1])
         prd = {"title" : prd_title,
+               "number" : prd_number,
                "courses" : []}
 
         yield prd_soup, prd
@@ -80,10 +82,11 @@ def it_specializations(sem_soup):
 
 def it_semesters(curr_soup):
     for sem_soup in curr_soup.select("section.accordion.semester"):
-        semester_title = sem_soup.select("h3")[0].text.strip()
-        sem= {"title" : semester_title,
+        sem_title = sem_soup.select("h3")[0].text.strip()
+        sem_number = int(sem_title.split()[1])
+        sem= {"title" : sem_title,
+              "number" : sem_number,
               "specializations" : []}
-
         yield sem_soup, sem
 
 
@@ -94,60 +97,119 @@ def get_course_data(url, get_exam):
     status = page.status_code
     print(f"Status: {status}")
 
+    curr_soup = BeautifulSoup(page.content, 'html.parser')
+
     today = date.today()
     program = curr_soup.select("h1")[0].text.strip()
 
-    courses = {}
     i = 0
 
+    lang = "swe"
+    if "/en/" in url:
+        lang = "eng"
+
     course_data = {
-        "version" : 0,
+        "version" : 1,
         "date" : today.strftime("%Y-%m-%d"),
         "url" : url,
+        "language" : lang,
         "program": program,
         "courses" : {},
-        "specializations" : [],
-        "semesters" : [],
-        "periods" : [],
+        "specializations" : {},
+        "specialization_titles" : [],
+        "semester_titles" : [],
     }
 
-    curr_soup = BeautifulSoup(page.content, 'html.parser')
     for sem_soup, sem in it_semesters(curr_soup):
+        course_data["semester_titles"].append(sem["title"])
         for spec_soup, spec in it_specializations(sem_soup):
+            course_data["specialization_titles"].append(spec["title"])
+            spec_elective_courses = []
+            spec_compulsory_courses = []
+            spec_voluntary_courses = []
             for prd_soup, prd in it_periods(spec_soup):
                 for crs_soup, crs in it_courses(prd_soup):
+                    # Add examinations to the course if that option is selected
                     if get_exam:
                         crs["examinations"], status = get_examinations(crs["url"])
                         i += 1
                         print(f"  {i}: Status {status}")
 
+                    # Add course to course list if not already added
+                    if crs["code"] not in course_data["courses"]:
+                        course = {"code" : crs["code"],
+                                         "name" : crs["name"],
+                                         "credits" : crs["credits"],
+                                         "level" : crs["level"],
+                                         "tt_module" : crs["tt_module"],
+                                         # "ecv" : crs["ecv"],
+                                         "url" : crs["url"],
+                                         "examinations" : crs["examinations"],
+                                         "semester_titles" : [],
+                                         "specialization_titles" : [],
+                                         "period_titles" : []}
+                        course_data["courses"][crs["code"]] = course
+                    # else:
+                    #     course = all_courses[crs["code"]]
 
-                    crs_code = crs["code"]
-                    sem_title = sem["title"]
-                    spec_title = spec["title"]
-                    prd_title = prd["title"]
+                    # Add specialization to list of specializations that take the course
+                    if spec["title"] not in course_data["courses"][crs["code"]]["specialization_titles"]:
+                        course_data["courses"][crs["code"]]["specialization_titles"].append(spec["title"])
 
-                    if crs_code in courses:
-                        courses[crs_code]["specializations"].append(spec_title)
-                        courses[crs_code]["semesters"].append(sem_title)    # TODO: Fix duplicates
-                        courses[crs_code]["periods"].append(prd_title)      # TODO: Fix duplicates
-                    else:
-                        new_crs = {
-                            "code" : crs["code"],
-                            "name" : crs["name"],
-                            "credits" : crs["credits"],
-                            "level" : crs["level"],
-                            "tt_module" : crs["tt_module"],
-                            "ecv" : crs["ecv"],
-                            "url" : crs["url"],
-                            "examinations" : crs["examinations"],
-                            "semesters" : [sem_title],
-                            "specializations" : [spec_title],
-                            "periods" : [prd_title],
-                        }
-                        courses[crs_code] = new_crs
+                    # Add semester to list of semesters that the course is given in
+                    if sem["title"] not in course_data["courses"][crs["code"]]["semester_titles"]:
+                        course_data["courses"][crs["code"]]["semester_titles"].append(sem["title"])
 
-    print(f"Finished reading course data for {len(courses)} courses from {url}")
+                    # Add period to list of periods that the course is given in
+                    if prd["title"] not in course_data["courses"][crs["code"]]["period_titles"]:
+                        course_data["courses"][crs["code"]]["period_titles"].append(prd["title"])
+
+                    # Add course to specialization courses if elective or compulsory
+                    if ("C" in crs["ecv"] and lang == "eng") or ("O" in crs["ecv"] and lang == "swe"):
+                        spec_compulsory_courses.append(course_data["courses"][crs["code"]])
+                    if ("E" in crs["ecv"] and lang == "eng") or ("V" in crs["ecv"] and lang == "swe"):
+                        spec_elective_courses.append(course_data["courses"][crs["code"]])
+                    if ("V" in crs["ecv"] and lang == "eng") or ("F" in crs["ecv"] and lang == "swe"):
+                        spec_voluntary_courses.append(course_data["courses"][crs["code"]])
+
+            # Add specialization to program specializations if not already added
+            if spec["title"] not in course_data["specializations"]:
+                course_data["specializations"][spec["title"]] = {"title" : spec["title"],
+                                                                        "elective_courses" : [],
+                                                                        "compulsory_courses" : [],
+                                                                        "voluntary_courses" : []}
+
+            # Add data about compulsory/elective courses for each specialization
+            course_data["specializations"][spec["title"]]["elective_courses"] += spec_elective_courses
+            course_data["specializations"][spec["title"]]["compulsory_courses"] += spec_compulsory_courses
+            course_data["specializations"][spec["title"]]["voluntary_courses"] += spec_voluntary_courses
+
+            # specialization_data = {"title" : spec["title"],
+            #                        "obligatory_courses" : spec_compulsory_courses,
+            #                        "elective_courses" : spec_elective_courses,
+            #                        "voluntary_courses" : spec_voluntary_courses}
+            # course_data["specializations"].append(specialization_data)
+
+    print("Performing le ugli hack...")
+
+    # TODO: Ugly hack below, fix later?
+    course_data["courses"] = list(course_data["courses"].values())
+
+    # TODO: Ugly hack below, fix later?
+    course_data["specialization_titles"] = list(course_data["specializations"].keys())
+    course_data["specializations"] = list(course_data["specializations"].values())
+
+
+
+    # # Add data about compulsory/elective courses for each specialization
+    # for crs_code, crs in course_data["courses"]:
+
+    #     for spec_title in crs["specializations"]:
+    #         course_data["specializations"][spec["title"]]["elective_courses"].append(spec_elective_courses)
+    #         course_data["specializations"][spec["title"]]["compulsory_courses"].append(spec_compulsory_courses)
+    #         course_data["specializations"][spec["title"]]["voluntary_courses"].append(spec_voluntary_courses)
+
+    print(f"Finished reading course data for {len(course_data['courses'])} courses from {url}")
 
     return course_data
 
@@ -165,6 +227,7 @@ def load_from_json(save_file):
 # %%
 
 course_data = get_course_data("https://studieinfo.liu.se/en/program/6CDDD/4617#curriculum", get_exam=True)
-save_to_json(course_data, "course_data_v1.json")
+save_to_json(course_data, "course_data_v2.json")
 
 # %%
+print(int("hello 7 world"))
