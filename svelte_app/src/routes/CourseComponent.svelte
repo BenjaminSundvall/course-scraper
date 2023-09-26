@@ -1,9 +1,8 @@
 <script lang="ts">
-    import type { Course } from "./curriculumTypes";
-
     import { selectedCourses } from "$lib/stores"
+    import type { ApiCourse } from "./+page";
 
-    export let course: Course;
+    export let course: ApiCourse;
 
     let isSelected = false;
 
@@ -24,7 +23,7 @@
 
 <div class=course>
     <div class="course-info">
-        {course.code}, {course.credits} hp, {course.level}, block {course.tt_module}, {course.ecv}
+        {course.code}, {course.credits} hp, {course.level}, block {course.tt_module}
     </div>
     <a href={course.url}>{course.name}</a>
     <button class="select-button" class:active={isSelected} on:click={toggleCourse}>

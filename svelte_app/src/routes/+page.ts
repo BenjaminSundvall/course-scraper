@@ -1,41 +1,53 @@
 import type { PageLoad } from "./$types"
-import type { ApiCurriculum } from "./curriculumTypes"
-// import type { Course } from "./courses"
 
-// export type Curriculum = ApiCurriculum & {
-//     semesterKeys: string[],
-//     specializationKeys: string[],
-// }
+export type ApiExamination = {
+    code: string,
+    name: string,
+    scope: string,
+    scale: string,
+}
+
+export type ApiCourse = {
+    code: string,
+    name: string,
+    credits: string,
+    level: string,
+    tt_module: string,
+    url: string,
+    examinations: ApiExamination[],
+    semester_titles: string[],
+    specialization_titles: string[],
+    period_titles: string[],
+}
+
+export type ApiSpecialization = {
+    title: string,
+    elective_courses: ApiCourse[],
+    compulsory_courses: ApiCourse[],
+    voluntary_courses: ApiCourse[],
+}
+
+export type ApiCourseData = {
+    version: number,
+    date: string,
+    url: string,
+    language: string,
+    program: string,
+    courses: ApiCourse[],
+    specializations: ApiSpecialization[],
+    specialization_titles: string[]
+    semester_titles: string[]
+}
 
 export const load = (async ({fetch}) => {
-    const curriculumURL = "https://raw.githubusercontent.com/BenjaminSundvall/course-scraper/main/curriculum_v0.json"
-    console.log(`Loading curriculum from ${curriculumURL}`)
-    const response = await fetch(curriculumURL)
+    const courseDataURL = "https://raw.githubusercontent.com/BenjaminSundvall/course-scraper/main/course_data_v1.json"
+    console.log(`Loading course data from ${courseDataURL}`)
+    const response = await fetch(courseDataURL)
     const json = await response.json()
-    const apiCurriculum: ApiCurriculum = json
-    console.log("Finished loading curriculum.")
+    const apiCourseData: ApiCourseData = json
+    console.log("Finished loading course data.")
 
-    // let semesterKeys: string[] = []
-    // let specializationKeys: string[] = []
-
-    // const curriculum: Curriculum = {
-    //     version: apiCurriculum.version,
-    //     date: apiCurriculum.date,
-    //     semesters: apiCurriculum.semesters,
-    //     semesterKeys,
-    //     specializationKeys,
-    // }
-
-    // let curriculum = dummyCurriculum;
     return {
-        // curriculum
-        curriculum: apiCurriculum
+        courseData: apiCourseData
     }
 }) satisfies PageLoad
-
-// export const load = (async) => {
-//     let curriculum = dummyCurriculum;
-//     return {
-//         curriculum
-//     };
-// }

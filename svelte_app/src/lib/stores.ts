@@ -1,5 +1,5 @@
 
 import { writable, type Writable } from "svelte/store";
-import type { Course } from "../routes/curriculumTypes";
+import type { ApiCourse } from "../routes/+page";
 
-export const selectedCourses: Writable<Course[]> = writable([]);
+export const selectedCourses: Writable<ApiCourse[]> = writable([]);

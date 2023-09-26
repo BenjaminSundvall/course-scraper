@@ -3,21 +3,20 @@
     import type { PageData } from "./$types";
     import { selectedCourses } from "$lib/stores";
     import CourseComponent from "./CourseComponent.svelte";
-    import type { Course, ApiCurriculum, ApiPeriod, ApiSemester, ApiSpecialization, dummySemesters, dummySpecializations } from "./curriculumTypes";
+    import type { ApiCourse, ApiCourseData } from "./+page";
 
     export let data: PageData;
 
+    let courseData: ApiCourseData = data.courseData;
+    let courses: ApiCourse[] = courseData.courses;
+    let semesterTitles: string[] = courseData.semester_titles;
+    let specializationTitles: string[] = courseData.specialization_titles;
+
     let form = {
         searchString: "",
-        semester: "",
+        semester: "none",
         specialization: "none",
     }
-
-    // let sem = "Semester 7 Autumn 2023"
-    // let spec = "Specialisation: Autonomus systems"
-    // let prd = "Period 0"
-
-    let curriculum: ApiCurriculum = data.curriculum;
 
     $: selectedSemesters = [];
     $: selectedSpecializations = [];
@@ -47,11 +46,13 @@
     // });
 
 
-    // $: filteredCourses = courses.filter((course) => {
-    //     let codeIncluded = course.code.toLowerCase().includes(form.searchString.toLowerCase());
-    //     let nameIncluded = course.name.toLowerCase().includes(form.searchString.toLowerCase());
-    //     return codeIncluded || nameIncluded;
-    // });
+    $: filteredCourses = courses.filter((course) => {
+        let codeIncluded = course.code.toLowerCase().includes(form.searchString.toLowerCase());
+        let nameIncluded = course.name.toLowerCase().includes(form.searchString.toLowerCase());
+        let correctSemester = (form.semester == "none") || course.semester_titles.includes(form.semester);
+        let correctSpecialization = (form.specialization == "none") || course.specialization_titles.includes(form.specialization);
+        return (codeIncluded || nameIncluded) && correctSemester && correctSpecialization;
+    });
 
 </script>
 
@@ -71,17 +72,15 @@
 
         <select bind:value={form.semester}>
             <option value="none">All Semesters</option>
-            {#each curriculum.semesters as semester (semester.title)}
-                <option value={semester.title}>{semester.title}</option>
+            {#each semesterTitles as semesterTitle (semesterTitle)}
+                <option value={semesterTitle}>{semesterTitle}</option>
             {/each}
         </select>
 
         <select bind:value={form.specialization}>
             <option value="none">All Specializations</option>
-            {#each curriculum.semesters as semester (semester.title)}
-                {#each semester.specializations as specialization (specialization.title)}
-                    <option value={specialization.title}>{specialization.title}</option>
-                {/each}
+            {#each specializationTitles as specializationTitle (specializationTitle)}
+                <option value={specializationTitle}>{specializationTitle}</option>
             {/each}
         </select>
 
@@ -93,9 +92,21 @@
 
     </form>
 
+    <p>{form.semester}</p>
+
     <p>{form.specialization}</p>
 
-    {#each curriculum.semesters as semester (semester.title)}
+    <h1>Filtered Courses</h1>
+    {#each filteredCourses as course (course.code)}
+        <CourseComponent course={course} />
+    {/each}
+
+    <h1>All Courses:</h1>
+    {#each courses as course (course.code)}
+        <CourseComponent course={course} />
+    {/each}
+
+    <!-- {#each curriculum.semesters as semester (semester.title)}
         <h1>{semester.title}</h1>
         {#each semester.specializations as specialization (specialization.title)}
             <h2>{specialization.title}</h2>
@@ -108,7 +119,7 @@
                 {/each}
             {/each}
         {/each}
-    {/each}
+    {/each} -->
 
     <!-- {#each filteredCourses as course (course.code)}
         <CourseComponent course={course} />
