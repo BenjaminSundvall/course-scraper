@@ -23,9 +23,9 @@
 
 <div class=course>
     <div class="course-info">
-        {course.code}, {course.credits} hp, {course.level}, block {course.tt_module}
+                {course.code} <a href={course.url}>{course.name}</a>,
+                {course.credits} hp, {course.level}, block {course.tt_module}
     </div>
-    <a href={course.url}>{course.name}</a>
     <button class="select-button" class:active={isSelected} on:click={toggleCourse}>
         {#if isSelected}
             Remove

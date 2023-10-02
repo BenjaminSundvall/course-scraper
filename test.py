@@ -1,27 +1,130 @@
 # %%
-from curriculum_scraper_v1 import get_curriculum, get_courses, save_to_json, load_from_json
+from supabase import create_client, Client
 
-# %load_ext autoreload
-# %autoreload 2
+url = "https://xvfdqonvnrxgrkqlcriw.supabase.co"
+key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inh2ZmRxb252bnJ4Z3JrcWxjcml3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTU3OTkxMDUsImV4cCI6MjAxMTM3NTEwNX0.NhtoK8tEeorPphhyQxVAPZVYNsmSBFH3M73L8rMdFFs"
 
-# %% Scrape
-curriculum = get_curriculum("https://studieinfo.liu.se/en/program/6CDDD/4617#curriculum", get_exam=False)
-# curriculum_sv = get_curriculum("https://studieinfo.liu.se/program/6CDDD/4617#curriculum", get_exam=False)
-save_to_json(curriculum, "curriculum_v1.json")
-
-# %% Load
-curriculum = load_from_json("curriculum_v1.json")
+supabase = create_client(url, key)
 
 # %%
-all_courses = get_courses(curriculum, semesters=[7, 8, 9], specializations=["DAIM", "DAUT"])
+# response = supabase.table("courses").select("courses(*)").eq('courses.code', "TDDC17").execute()
+response = supabase.table("courses").select("*").execute()
 
-save_to_json(all_courses, "my_course_list.json")
+print(response.data[0])
 
 # %%
-def foo(items):
-    for item in items:
-        yield item
+courses = [
+    {
+        "code" : "TDDC17",
+        "name" : "Artificial Intelligence",
+        "credits" : 6
+    },
+    {
+        "code" : "TSBB08",
+        "name" : "Multidimensional Signal Analysis",
+        "credits" : 6
+    },
+    {
+        "code" : "TSFS12",
+        "name" : "Autonomous Vehicles - Planning, Control, and Learning Systems",
+        "credits" : 6
+    },
+]
 
+specializations = [
+    {
+        "code" : "DAIM",
+        "name" : "AI and Machine Learning"
+    },
+    {
+        "code" : "DAUT",
+        "name" : "Autonomous Systems"
+    },
+]
 
-for i in foo([3, 6, 9]):
-    print(i)
+in_spec = [
+    {
+        "crs_code" : "TDDC17",
+        "spec_code" : "DAIM",
+        "ecv" : "C"
+    },
+    {
+        "crs_code" : "TDDC17",
+        "spec_code" : "DAUT",
+        "ecv" : "C"
+    },
+    {
+        "crs_code" : "TSBB08",
+        "spec_code" : "DAUT",
+        "ecv" : "C"
+    },
+    {
+        "crs_code" : "TSFS12",
+        "spec_code" : "DAUT",
+        "ecv" : "C"
+    },
+]
+
+periods = [
+    {
+        "code" : "HT1 2023",
+        "period" : 1,
+        "semester" : 0, # 0: fall, 1: spring
+        "year" : 2023
+    },
+    {
+        "code" : "HT2 2023",
+        "period" : 2,
+        "semester" : 0, # 0: fall, 1: spring
+        "year" : 2023
+    },
+    {
+        "code" : "VT1 2024",
+        "period" : 1,
+        "semester" : 1, # 0: fall, 1: spring
+        "year" : 2023
+    },
+    {
+        "code" : "VT2 2024",
+        "period" : 2,
+        "semester" : 1, # 0: fall, 1: spring
+        "year" : 2024
+    },
+]
+
+in_prd = [
+    {
+        "crs_code" : "TDDC17",
+        "prd_code" : "HT1 2023"
+    },
+    {
+        "crs_code" : "TSBB08",
+        "prd_code" : "HT1 2023"
+    },
+    {
+        "crs_code" : "TSFS12",
+        "prd_code" : "HT1 2023"
+    },
+]
+
+# %%
+try:
+    # data, count = supabase.table('specializations').insert(courses[0]).execute()
+    data, count = supabase.table('specializations').insert({"code" : "ABCD12", "name": "Test Course", "credits": "42"}).execute()
+    print(data)
+    print(count)
+except Exception as e:
+    print('ded')
+    print(e)
+
+# %%
+try:
+    for spec in specializations:
+        data, count = supabase.table('specializations').insert(spec).execute()
+        print(data)
+        print(count)
+except Exception as e:
+    print('ded')
+    print(e)
+
+# %%

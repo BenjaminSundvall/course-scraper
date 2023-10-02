@@ -1,3 +1,4 @@
+import { supabase } from "$lib/supabaseClient"
 import type { PageLoad } from "./$types"
 
 export type ApiExamination = {
