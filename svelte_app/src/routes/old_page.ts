@@ -15,10 +15,10 @@ export type ApiCourse = {
     level: string,
     tt_module: string,
     url: string,
-    // examinations: ApiExamination[],
-    // semester_titles: string[],
-    // specialization_titles: string[],
-    // period_titles: string[],
+    examinations: ApiExamination[],
+    semester_titles: string[],
+    specialization_titles: string[],
+    period_titles: string[],
 }
 
 export type ApiSpecialization = {

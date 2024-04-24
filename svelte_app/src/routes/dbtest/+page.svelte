@@ -9,3 +9,11 @@
       <li>{course.credits}</li>
     {/each}
   </ul>
+
+  <ul>
+    {#each data.specializations as specialization}
+      <li>{specialization.code}</li>
+      <li>{specialization.name}</li>
+    {/each}
+  </ul>
+

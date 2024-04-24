@@ -8,9 +8,17 @@ supabase = create_client(url, key)
 
 # %%
 # response = supabase.table("courses").select("courses(*)").eq('courses.code', "TDDC17").execute()
-response = supabase.table("courses").select("*").execute()
+response = supabase.table("specializations").select("*").execute()
 
 print(response.data[0])
+
+#%%
+data, count = supabase.table('courses') \
+  .insert({"code": "ABCD12", "name": "Test", "credits": 42, "level": "A2X", "tt_module": 2, "url": "my.url"}) \
+  .execute()
+
+#%%
+
 
 # %%
 courses = [
